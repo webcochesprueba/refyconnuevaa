@@ -128,25 +128,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  /* --- Form Submission --- */
-  const contactForm = document.getElementById('contactForm');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const btn = contactForm.querySelector('.btn-submit');
-      const original = btn.textContent;
-      btn.textContent = '✓ Solicitud enviada';
-      btn.style.background = '#16a34a';
-      btn.disabled = true;
-      setTimeout(function () {
-        btn.textContent = original;
-        btn.style.background = '';
-        btn.disabled = false;
-        contactForm.reset();
-        if (uploadText) uploadText.textContent = 'Arrastra aquí o haz clic para seleccionar';
-      }, 3000);
-    });
-  }
 
   /* --- Smooth scroll for anchor links --- */
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
