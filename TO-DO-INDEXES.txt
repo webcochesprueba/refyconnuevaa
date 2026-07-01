@@ -1,0 +1,3 @@
+Arreglar del header en todos los indexes el enlace a la pagina en francés, la cual al querer ir a ella te manda a la pagina en alemán
+
+Arreglar del header en todos los indexes el nombre del idioma de la pagina, están rotos los caracteres en casi todas menos en la rusa

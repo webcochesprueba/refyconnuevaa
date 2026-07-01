@@ -1,0 +1,313 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    SEO - PLAN DE ACCIÓN COMPLETO                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📅 Fecha del análisis: Julio 2026
+🌐 Dominio: refycon.com
+🛠 Hosting: Vercel
+
+================================================================================
+✔ = Hecho / 🔴 = Pendiente crítico / 🟡 = Pendiente importante
+================================================================================
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  1.  ESTRUCTURA TÉCNICA Y RENDIMIENTO                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🔴 [1.1] Verificar tiempos de carga (Core Web Vitals)
+     - Medir con PageSpeed Insights / Lighthouse
+     - Optimizar imágenes que sean pesadas (>200KB)
+     - Implementar lazy loading en imágenes de servicios y proyectos
+
+🔴 [1.2] Optimizar imágenes (formato y compresión)
+     - Muchas imágenes .jpg, .jpeg, .png → convertir a .webp
+     - Archivos actuales sin convertir: reformainterior.jpeg, construccion.jpg,
+       villa.jpg, hormigon.jpg, pintura.jpg, bano.webp (ya .webp),
+       bano1.png, bano2.png, cocina1.png, cocina2.png, pintura1.png, pintura2.png
+     - Imágenes .png de proyectos → convertir a .webp
+     - Crear versiones responsivas con srcset
+
+🔴 [1.3] Instalar y verificar Google Analytics 4 + Google Tag Manager
+     - Ya implementado en <head> → verificar que funcionan correctamente
+     - Comprobar que no hay bloqueos de consentimiento
+
+🔴 [1.4] Implementar HTTP/2 o HTTP/3
+     - Vercel lo soporta nativamente → verificar cabeceras
+
+🟡 [1.5] Implementar HSTS (HTTP Strict Transport Security)
+     - Verificar que Vercel lo gestiona o añadir cabecera
+
+🟡 [1.6] Minificar CSS, JS y HTML
+     - styles.css no está minificado (855 líneas)
+     - script.js no está minificado
+     - Los HTML tienen mucho espacio en blanco que se puede comprimir
+
+🔴 [1.7] Cacheo de recursos estáticos (Cache-Control)
+     - Verificar cabeceras de cache en Vercel para imágenes, CSS, JS
+     - Añadir en vercel.json headers para cacheo agresivo de assets
+
+🔴 [1.8] Service Worker
+     - sw.js existe pero verificar que funcione correctamente
+     - Debería cachear recursos críticos para funcionamiento offline parcial
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  2.  SEO ON-PAGE - PÁGINAS PRINCIPALES                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+✔ [2.1] Meta Title y Description
+     - Implementado en index.html y todas las versiones de idioma
+     - También en 404.html, privacidad.html, servicios/*, zonas/*
+
+✔ [2.2] Open Graph y Twitter Cards
+     - Implementado en todas las páginas principales
+
+✔ [2.3] Canonical URLs
+     - Implementadas correctamente en todas las páginas
+
+✔ [2.4] hreflang para multilingüe
+     - Implementado correctamente en todas las versiones de idioma
+
+🔴 [2.5] Heading tags (H1, H2, H3)
+     - Verificar estructura jerárquica en todas las páginas
+     - Cada página debe tener un solo H1
+     - Los H2 deben seguir un orden lógico
+
+🔴 [2.6] Alt text en imágenes
+     - La mayoría tienen alt text descriptivo
+     - Verificar que todas las imágenes lo tengan (especialmente en versiones
+       de servicios y zonas)
+
+🟡 [2.7] Breadcrumb structured data
+     - Implementado SOLO en index.html (página principal)
+     - FALTA en: 404.html, privacidad.html, servicios/*, zonas/*
+
+🔴 [2.8] 404 personalizada
+     - 404.html existe pero verificar que Vercel la sirva correctamente
+     - Añadir navegación útil y buscador en la 404
+
+✔ [2.9] Página de privacidad
+     - privacidad.html existe
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  3.  DATOS ESTRUCTURADOS (SCHEMA.ORG)                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+✔ [3.1] LocalBusiness
+     - Implementado en index.html y versiones de idioma
+     - Incluye: nombre, dirección, teléfono, geo, horario, redes sociales
+
+✔ [3.2] FAQ Schema
+     - Implementado en index.html y versiones de idioma
+
+✔ [3.3] BreadcrumbList
+     - Implementado en index.html y versiones de idioma
+
+✔ [3.4] Organization con ContactPoint
+     - Implementado en index.html y versiones de idioma
+
+🔴 [3.5] Añadir Review Schema en páginas de servicios
+     - Las páginas servicios/reformas.html, urgencias.html deberían tener
+       reseñas de clientes con Review schema
+
+🔴 [3.6] Añadir Product/Service Schema en páginas de servicios
+     - Cada página de servicio debería tener schema Service con description,
+       provider, areaServed
+
+🔴 [3.7] Validar todos los Schema con la herramienta de prueba de Google
+     - Usar https://search.google.com/test/rich-results
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  4.  SITEMAP Y ROBOTS.TXT                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🟡 [4.1] Sitemap: actualizar lastmod
+     - Todas las fechas son 2025-11-30 → actualizar a fecha actual
+
+🔴 [4.2] Sitemap: urls de imágenes rotas
+     - Las imágenes referenciadas en el sitemap NO existen en el proyecto:
+       • pexels-steffen-coonan-1005786-2098624.webp (para FR)
+       • proyectovilla.webp (para DE)
+       • proyectopiscina.webp (para IT)
+       • reformainterior.webp (para NL)
+     - Reemplazar con imágenes reales que SÍ existen en el proyecto
+
+🔴 [4.3] Sitemap: añadir 404.html, privacidad.html
+     - 404.html no está en el sitemap
+     - privacidad.html SÍ está presente
+
+🔴 [4.4] Sitemap: añadir servicio steel-framing.html
+     - Está en el sitemap pero no existe el archivo físico en /servicios/
+
+🔴 [4.5] Robots.txt: verificar que no bloquea contenido importante
+     - Todo correcto: solo bloquea /admin/, /private/, /temp/
+     - AhrefsBot, MJ12bot, DotBot bloqueados (buena práctica)
+
+🟡 [4.6] Añadir sitemap de imágenes separado (opcional pero recomendado)
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  5.  WEB VITALS, SEGURIDAD Y TÉCNICO                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🔴 [5.1] PWA - site.webmanifest (ERROR CRÍTICO)
+     - El archivo site.webmanifest TIENE JSON ROTO en las líneas 63-66:
+       "name": ", "short_name": ", "description": "Información sobre,
+       "url": "/#,  → strings truncadas, falta el tercer shortcut
+     - Corregir o eliminar el tercer shortcut dañado
+
+🟡 [5.2] PWA - Service Worker
+     - Verificar sw.js y sw_backup.js
+     - Asegurar que registra correctamente en todas las páginas
+     - Añadir estrategia de cache para assets estáticos
+
+🔴 [5.3] SSL/TLS
+     - Verificar que Vercel fuerza HTTPS correctamente
+     - Comprobar que no hay contenido mixto (http/https)
+
+🔴 [5.4] 404.html personalizada en Vercel
+     - Añadir configuración en vercel.json para custom 404
+     - Verificar que Vercel redirige los 404 a 404.html
+
+🟡 [5.5] Velocidad de carga - Render blocking resources
+     - Google Fonts CSS puede estar bloqueando el renderizado
+     - Considerar precargar o usar font-display: swap
+
+🟡 [5.6] Cumulative Layout Shift (CLS)
+     - Las imágenes sin width/height explícito pueden causar CLS
+     - Añadir atributos width y height a todas las imágenes
+
+🟡 [5.7] Lazy loading en imágenes below the fold
+     - Añadir loading="lazy" en imágenes de servicios, proyectos y footer
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  6.  SEO LOCAL                                                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🔴 [6.1] Google Business Profile
+     - Verificar que la empresa está dada de alta en Google Business
+     - Comprobar que los datos (nombre, dirección, teléfono, horario)
+       coinciden exactamente con los del schema LocalBusiness
+
+✔ [6.2] Datos NAP (Name, Address, Phone) consistentes
+     - Coinciden en todas las páginas
+
+🔴 [6.3] Páginas de zonas con contenido local único
+     - zonas/marbella.html, zonas/malaga.html, zonas/estepona.html,
+       zonas/manilva.html → Verificar que NO tienen contenido duplicado
+     - Cada una debe tener contenido único sobre esa zona específica
+
+🔴 [6.4] Reviews en Google (potenciar)
+     - El schema muestra 127 reviews con rating 4.9
+     - Verificar que esto coincide con Google Business Profile
+     - Fomentar más reseñas de clientes reales
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  7.  LINK BUILDING Y ESTRUCTURA DE ENLACES                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🔴 [7.1] Enlaces internos entre páginas
+     - Los index solo enlazan a secciones internas (#hero, #services, etc.)
+     - FALTAN enlaces desde index.html a:
+       • servicios/reformas.html
+       • servicios/urgencias.html
+       • zonas/marbella.html (y resto de zonas)
+       • privacidad.html (solo está en el formulario)
+     - Enlazar desde "Ver Más Proyectos" y botones CTA a páginas reales
+
+🔴 [7.2] Enlaces rotos
+     - Revisar que todos los enlaces funcionan (especialmente los href="#")
+     - Los enlaces a "Blog" no llevan a ninguna parte
+
+🟡 [7.3] Footer - Añadir enlaces a páginas de zonas y servicios
+     - Actualmente solo tiene secciones del mismo index
+
+🔴 [7.4] Redes Sociales
+     - Los enlaces a Facebook, Instagram, LinkedIn, YouTube, TikTok
+       apuntan a "#" (placeholder) → reemplazar con URLs reales
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  8.  CONTENIDO Y PALABRAS CLAVE                                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🔴 [8.1] Keyword research
+     - Realizar investigación de palabras clave para:
+       • reformas Costa del Sol
+       • construcción Marbella
+       • reforma integral Málaga
+       • construcción villas Estepona
+       • reforma baños y cocinas
+       • empresa construcción Costa del Sol
+
+🔴 [8.2] Contenido duplicado entre versiones de idioma
+     - Verificar que el contenido traducido NO es traducción automática
+       literal (Google puede penalizar)
+     - Ideal: contenido adaptado culturalmente, no solo traducido
+
+🔴 [8.3] Blog
+     - Hay enlace a Blog en el menú pero no hay página de blog
+     - Considerar crear blog para contenido fresco y long-tail keywords
+     - Temas sugeridos: "Cómo reformar tu villa en Marbella",
+       "Presupuesto de reforma: guía completa", "Steel Frame vs tradicional"
+
+🟡 [8.4] Meta keywords
+     - Algunas páginas tienen <meta name="keywords"> → Google ya no lo usa
+       como factor de ranking desde hace años. Se puede eliminar para
+       limpiar el código, pero no penaliza tenerlo.
+
+🔴 [8.5] Long-tail content en páginas de zona
+     - Cada página de zona debería tener contenido único de 300-500 palabras
+       sobre reformas/construcción en esa localidad específica
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  9.  VERIFICACIONES FINALES                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🔴 [9.1] Google Search Console
+     - Verificar que el dominio está registrado
+     - Añadir sitemap.xml en Search Console
+     - Revisar errores de indexación
+
+🔴 [9.2] Google Analytics
+     - Verificar que los eventos de formulario se trackean
+     - Configurar goals para envíos de formulario exitosos
+
+🔴 [9.3] Prueba de Rich Results (Schema)
+     - Probar todos los schema con la herramienta de Google
+
+🔴 [9.4] Prueba de velocidad en móvil
+     - La página debe cargar en <3 segundos en 4G
+     - Priorizar optimización de imágenes y JS
+
+🔴 [9.5] Core Web Vitals Assessment
+     - LCP (Largest Contentful Paint): <2.5s
+     - FID (First Input Delay): <100ms
+     - CLS (Cumulative Layout Shift): <0.1
+
+🔴 [9.6] Verificar indexación en Google
+     - Búsqueda: site:refycon.com
+     - Comprobar cuántas páginas están indexadas
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  PRIORIDADES INMEDIATAS (las 5 más críticas)                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. 🔴 site.webmanifest → Corregir JSON roto (líneas 63-66)
+  2. 🔴 Sitemap → Reemplazar imágenes que no existen (4 URLs rotas)
+  3. 🔴 Sitemap → Actualizar lastmod a fecha actual
+  4. 🔴 Sitemap → Eliminar steel-framing.html (no existe el archivo)
+  5. 🔴 Imágenes → Convertir las que están en .jpg/.jpeg/.png a .webp
+     y optimizar su tamaño
+
+
+================================================================================
+Total: 45 items identificados (25 críticos 🔴, 9 importantes 🟡, 11 correctos ✔)
+================================================================================
