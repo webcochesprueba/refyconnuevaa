@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/Organization">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contacto – REFYCON | Reformas · Construcción · Diseño</title>
+  <meta name="description" content="Solicita tu presupuesto gratuito para reformas y construcción en Marbella y Costa del Sol." />
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.refycon.com/contact.html">
+  <link rel="icon" type="image/webp" sizes="32x32" href="logo.png.webp">
+  <link rel="icon" type="image/webp" sizes="16x16" href="logo.png.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="logo.png.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+      color: #111827;
+      background: #0d0d0d;
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .contact-page-box {
+      background: rgba(10,10,20,0.95);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 40px 32px;
+      max-width: 460px;
+      width: 100%;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    .contact-page-box h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      text-align: center;
+      line-height: 1.3;
+    }
+    .contact-page-box h1 span { color: #4da6ff; }
+    .contact-page-box .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+      transition: color 0.25s ease;
+    }
+    .contact-page-box .back-link:hover { color: #4da6ff; }
+    
+    /* Form styles (same as dark hero form) */
+    .form-minimal { display: flex; flex-direction: column; gap: 0; }
+    .form-group-minimal { margin-top: 12px; }
+    .form-label-minimal {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .form-input-minimal,
+    .form-select-minimal,
+    .form-textarea-minimal {
+      width: 100%;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 5px;
+      color: #ffffff;
+      padding: 10px 12px;
+      font-size: 13px;
+      font-family: inherit;
+      transition: border-color 0.25s ease;
+      -webkit-appearance: none;
+    }
+    .form-select-minimal { background-color: rgba(10,10,20,0.95); cursor: pointer; }
+    .form-select-minimal option { background: #1a1a2e; color: #fff; }
+    .form-textarea-minimal { resize: vertical; min-height: 80px; }
+    .form-input-minimal:focus,
+    .form-select-minimal:focus,
+    .form-textarea-minimal:focus {
+      outline: none;
+      border-color: #4da6ff;
+    }
+    .form-error-minimal {
+      font-size: 11px;
+      color: #ef4444;
+      margin-top: 4px;
+      min-height: 16px;
+    }
+    .checkbox-group-minimal { margin-top: 14px; }
+    .checkbox-label-minimal {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      cursor: pointer;
+    }
+    .checkbox-label-minimal input[type="checkbox"] { display: none; }
+    .checkbox-custom-minimal {
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+      border-radius: 3px;
+      flex-shrink: 0;
+      margin-top: 2px;
+      position: relative;
+      transition: border-color 0.25s ease, background 0.25s ease;
+    }
+    .checkbox-label-minimal input[type="checkbox"]:checked + .checkbox-custom-minimal {
+      background: #2563eb;
+      border-color: #2563eb;
+    }
+    .checkbox-label-minimal input[type="checkbox"]:checked + .checkbox-custom-minimal::after {
+      content: '✓';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+    }
+    .checkbox-text-minimal {
+      font-size: 12px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.4;
+    }
+    .privacy-link-minimal { color: #4da6ff; text-decoration: underline; }
+    .privacy-link-minimal:hover { color: #1a73e8; }
+    .btn-submit-minimal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.1s;
+      padding: 14px;
+      width: 100%;
+      margin-top: 16px;
+    }
+    .btn-submit-minimal:hover { background: #1d4ed8; }
+    .btn-submit-minimal:active { transform: scale(0.99); }
+    .btn-loading-minimal { display: none; }
+    .btn-submit-minimal.loading .btn-text-minimal { display: none; }
+    .btn-submit-minimal.loading .btn-loading-minimal { display: inline; }
+    .btn-icon-minimal { font-size: 14px; }
+    .form-status-minimal {
+      margin-top: 10px;
+      font-size: 12px;
+      text-align: center;
+      color: rgba(255,255,255,0.7);
+    }
+    .form-status-minimal.success { color: #22c55e; }
+    .form-status-minimal.error { color: #ef4444; }
+    .whatsapp-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+      padding: 12px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.25s ease;
+    }
+    .whatsapp-link:hover { background: #1da851; }
+    .or-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 18px 0 6px;
+      color: rgba(255,255,255,0.3);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .or-divider::before,
+    .or-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(255,255,255,0.1);
+    }
+    @media (max-width: 480px) {
+      .contact-page-box { padding: 28px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-page-box">
+    <a href="index.html" class="back-link">← Volver al inicio</a>
+    <h1>Solicita tu presupuesto<br><span>GRATUITO</span></h1>
+
+    <form action="https://formspree.io/f/mrbojoyd" method="POST" id="contactForm" class="form-minimal" novalidate>
+      <div class="form-group-minimal">
+        <label for="nombre" class="form-label-minimal">Nombre completo *</label>
+        <input type="text" id="nombre" name="nombre" class="form-input-minimal" required>
+        <div class="form-error-minimal"></div>
+      </div>
+      <div class="form-group-minimal">
+        <label for="email" class="form-label-minimal">Correo electrónico *</label>
+        <input type="email" id="email" name="email" class="form-input-minimal" required>
+        <div class="form-error-minimal"></div>
+      </div>
+      <div class="form-group-minimal">
+        <label for="telefono" class="form-label-minimal">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" class="form-input-minimal">
+        <div class="form-error-minimal"></div>
+      </div>
+      <div class="form-group-minimal">
+        <label for="servicio" class="form-label-minimal">Tipo de servicio</label>
+        <select id="servicio" name="servicio" class="form-select-minimal">
+          <option value="">Selecciona un servicio</option>
+          <option value="reforma-integral">Reforma integral</option>
+          <option value="construccion">Construcción</option>
+          <option value="steel-framing">Steel Framing</option>
+          <option value="diseno">Diseño y planificación</option>
+          <option value="urgencias">Servicios de urgencia</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <div class="form-group-minimal">
+        <label for="mensaje" class="form-label-minimal">Cuéntanos sobre tu proyecto *</label>
+        <textarea id="mensaje" name="mensaje" class="form-textarea-minimal" rows="5" required placeholder="Describe tu proyecto, presupuesto aproximado, ubicación, etc."></textarea>
+        <div class="form-error-minimal"></div>
+      </div>
+      <div class="form-group-minimal checkbox-group-minimal">
+        <label class="checkbox-label-minimal">
+          <input type="checkbox" id="privacidad" name="privacidad" required>
+          <span class="checkbox-custom-minimal"></span>
+          <span class="checkbox-text-minimal">Acepto la <a href="privacidad.html" class="privacy-link-minimal" target="_blank">política de privacidad</a> y el tratamiento de mis datos personales *</span>
+        </label>
+      </div>
+      <button type="submit" class="btn-submit-minimal">
+        <span class="btn-text-minimal">Enviar Consulta</span>
+        <span class="btn-loading-minimal"><i class="fas fa-spinner fa-spin"></i> Enviando...</span>
+        <i class="fas fa-paper-plane btn-icon-minimal"></i>
+      </button>
+      <div class="form-status-minimal"></div>
+    </form>
+
+    <div class="or-divider">o contáctanos por</div>
+    <a href="https://wa.me/34642589658" class="whatsapp-link" target="_blank" rel="noopener">
+      💬 WhatsApp
+    </a>
+  </div>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var btn = this.querySelector('.btn-submit-minimal');
+      var status = this.querySelector('.form-status-minimal');
+      var hasError = false;
+      
+      this.querySelectorAll('.form-error-minimal').forEach(function(el) { el.textContent = ''; });
+      
+      var nombre = this.querySelector('#nombre');
+      var email = this.querySelector('#email');
+      var mensaje = this.querySelector('#mensaje');
+      var privacidad = this.querySelector('#privacidad');
+      
+      if (!nombre.value.trim()) {
+        nombre.parentElement.querySelector('.form-error-minimal').textContent = 'Este campo es obligatorio';
+        hasError = true;
+      }
+      if (!email.value.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+        email.parentElement.querySelector('.form-error-minimal').textContent = 'Email válido requerido';
+        hasError = true;
+      }
+      if (!mensaje.value.trim()) {
+        mensaje.parentElement.querySelector('.form-error-minimal').textContent = 'Describe tu proyecto';
+        hasError = true;
+      }
+      if (!privacidad.checked) {
+        privacidad.closest('.checkbox-group-minimal').querySelector('.form-error-minimal').textContent = 'Debes aceptar la política de privacidad';
+        hasError = true;
+      }
+      if (hasError) return;
+      
+      btn.classList.add('loading');
+      status.textContent = 'Enviando...';
+      
+      fetch(this.action, { method: 'POST', body: new FormData(this), headers: { 'Accept': 'application/json' } })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          if (data.ok) {
+            status.className = 'form-status-minimal success';
+            status.textContent = '¡Mensaje enviado con éxito! Te contactaremos pronto.';
+            this.reset();
+          } else {
+            status.className = 'form-status-minimal error';
+            status.textContent = 'Error al enviar. Intenta de nuevo.';
+          }
+          btn.classList.remove('loading');
+        }.bind(this))
+        .catch(function() {
+          status.className = 'form-status-minimal error';
+          status.textContent = 'Error de conexión. Intenta de nuevo.';
+          btn.classList.remove('loading');
+        });
+    });
+  </script>
+</body>
+</html>

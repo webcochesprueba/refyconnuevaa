@@ -74,6 +74,15 @@ button, input, select, textarea { font-family: inherit; }
   padding: 0 20px;
 }
 
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo-img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
 .nav-logo .logo-text {
   font-size: 22px;
   font-weight: 800;
@@ -1016,10 +1025,42 @@ button, input, select, textarea { font-family: inherit; }
   .services-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
+/* Mobile CTA button (visible only when form is hidden) */
+.hero-mobile-cta {
+  display: none;
+}
+
 @media (max-width: 900px) {
   .hero-form-wrapper { display: none; }
   .hero-text { max-width: 100%; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+
+  .hero-mobile-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+    padding: 14px 32px;
+    background: var(--blue-cta);
+    color: var(--white) !important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background var(--transition), transform 0.1s;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+  }
+  .hero-mobile-cta:hover {
+    background: #1d4ed8;
+  }
+  .hero-mobile-cta:active {
+    transform: scale(0.98);
+  }
 }
 
 @media (max-width: 768px) {
