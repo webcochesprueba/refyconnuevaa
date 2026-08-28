@@ -180,7 +180,7 @@ button, input, select, textarea { font-family: inherit; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('banner2.jpg');
+  background-image: url('banner2.png');
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
