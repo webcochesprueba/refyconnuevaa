@@ -18,6 +18,14 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-03 - Teléfono único (Claude)
+
+[x] Teléfono principal decidido: +34 613 446 457.
+[x] Sustituido el +34 642 589 658 en 9 archivos (index.html, index-xx.html,
+    index2.html, contact.html): enlaces de WhatsApp (wa.me/34613446457),
+    enlaces tel: y número visible del pie. Ya no queda ningún 642 en la web.
+    El schema ya usaba el 613 en todas las páginas.
+
 ## 2026-11-03 - Arreglos urgentes de dominio e indexación (Claude)
 
 [x] Cambiado refycon.com -> https://www.refyconpro.com en 18 archivos:
@@ -61,18 +69,23 @@ REGISTRO DE CAMBIOS HECHOS
 PENDIENTE - PRIORIDAD 1 (esta semana)
 ------------------------------------------------------------------------------
 
-[ ] (Tú) Google Search Console: dar de alta la propiedad de dominio
-    refyconpro.com, verificar, enviar https://www.refyconpro.com/sitemap.xml
-    y pedir indexación de la portada y de zonas/marbella.html.
+[~] (Tú) Google Search Console: propiedad de dominio refyconpro.com.
+    2026-11-03: registro DNS de verificación (TXT) añadido en Vercel,
+    esperando propagación. NO borrar ese registro TXT nunca: si se quita,
+    Search Console pierde la verificación.
+    [ ] Verificar la propiedad
+    [ ] Enviar el sitemap: sitemap.xml
+    [ ] Inspeccionar URL https://www.refyconpro.com/ -> Solicitar indexación
+    [ ] Igual con zonas/marbella.html y servicios/reformas.html
+    [ ] A los 3-7 días: revisar Páginas (indexadas / no indexadas) y avisar a Claude
 [ ] (Tú) Google Business Profile: comprobar si existe ficha "Refycon" en
     Google Maps y con qué cuenta. Si no existe, crearla (ver plan).
 [ ] (Tú) Decidir qué hacer con refycon.com: si el dominio sigue siendo
     vuestro, redirigirlo (301) a https://www.refyconpro.com. Si no, olvidarlo.
-[ ] (Tú) Decidir teléfono principal. Hoy hay dos:
-      +34 642 589 658 -> botón "Contactanos" del menú y la mayoría de WhatsApp (45 enlaces)
-      +34 613 446 457 -> Jorge Larosa en el pie, botones flotantes, páginas de zona (20 tel: + 4 WhatsApp)
-    Google necesita el mismo teléfono en la web y en la ficha.
-[ ] (Claude) Cuando decidas el teléfono: unificarlo en todas las páginas y en el schema.
+[x] (Tú) Decidir teléfono principal: +34 613 446 457 (2026-11-03).
+[x] (Claude) Unificado en todas las páginas y en el schema (2026-11-03).
+[ ] (Tú) Usar exactamente +34 613 446 457 en la ficha de Google Business,
+    directorios y redes. Google cruza el teléfono entre todas ellas.
 [ ] (Tú) Fotos reales: obras antes/después, equipo, furgonetas. En el repo
     ya hay algunas reales sin usar (furgoempleados, furgoneta, proyectovilla,
     proyectopiscina, WhatsApp Image...). Confirmar cuáles se pueden publicar.
