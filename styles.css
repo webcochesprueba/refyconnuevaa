@@ -619,6 +619,8 @@ button, input, select, textarea { font-family: inherit; }
   color: var(--text-mid);
 }
 .location-pin .pin-icon { color: var(--blue-primary); font-size: 14px; }
+a.location-pin { text-decoration: none; border-bottom: 1px solid transparent; transition: color .2s, border-color .2s; }
+a.location-pin:hover { color: var(--blue-primary); border-bottom-color: var(--blue-primary); }
 
 /* =============================================
    SECTION COMMON

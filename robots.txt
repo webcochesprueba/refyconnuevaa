@@ -17,4 +17,4 @@ User-agent: DotBot
 Disallow: /
 
 # XML sitemap index for all language versions
-Sitemap: https://www.refycon.com/sitemap.xml
+Sitemap: https://www.refyconpro.com/sitemap.xml
