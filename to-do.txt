@@ -55,6 +55,7 @@ REGISTRO DE CAMBIOS HECHOS
 [x] servicios/reformas.html: quitada una línea de HTML cortada (enlace sin
     cerrar en el pie) y el enlace a arquitectura.html (no existe).
 [x] privacidad.html: arreglados 34 acentos rotos (PolÃ­tica -> Política...).
+    Después: flecha "Volver al inicio" rota (â†) y carácter BOM invisible al inicio.
 [x] index2.html (copia antigua de la portada, mismo título): añadido
     noindex + canonical a la portada para que no compita con ella. No se ha borrado.
 [x] 404.html: arreglados enlaces a anclas inexistentes.
