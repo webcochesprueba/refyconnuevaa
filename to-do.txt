@@ -23,6 +23,32 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-04 - Rediseño de Estepona, Manilva, Málaga y Urgencias (Claude)
+
+[x] zonas/estepona.html, manilva.html y malaga.html con la misma plantilla
+    que marbella.html (generadas a partir de ella; mismo diseño, menú y pie).
+[x] Texto propio de cada zona para que Google no las vea como copias:
+    introducción, sección local, barrios y 3 preguntas frecuentes por zona
+    (visibles y en el schema FAQ, con el mismo texto).
+      Estepona: casco antiguo vs urbanizaciones (El Paraíso, Cancelada,
+        Valle Romano, New Golden Mile, Atalaya).
+      Manilva: segundas residencias en Sabinillas, La Duquesa, Casares
+        Costa; fotos del avance por WhatsApp.
+      Málaga: pisos antiguos, edificios del centro y comunidades
+        (Centro Histórico, Soho, Teatinos, El Palo, Pedregalejo, Huelin,
+        Ciudad Jardín, El Limonar...).
+    Precios y plazos de las FAQ = los mismos que reformas.html (600-1.200 €/m², 8-16 semanas).
+[x] Las tres zonas: formulario de presupuesto con campo oculto de zona,
+    schema HomeAndConstructionBusiness "Refycon PRO", título y descripción nuevos.
+[x] servicios/urgencias.html con la plantilla nueva: la llamada es la acción
+    principal (número grande, botón Llamar, WhatsApp para enviar foto).
+    Conservados el schema Service y las 3 FAQ originales (ahora visibles).
+    La barra móvil pone "Llamar" primero. Estilos en subpages.css (Urgencias).
+[x] Comprobado en las 6 subpáginas: un solo h1, canonical propio, títulos
+    distintos, FAQ visible = schema, sin enlaces rotos, etiquetas bien
+    cerradas, sin scroll horizontal en móvil (390 px).
+[x] sitemap.xml: lastmod 2026-11-04 en las 4 páginas.
+
 ## 2026-11-04 - Cifra de proyectos (Claude)
 
 [x] "+200 proyectos en Marbella" (marbella.html) y "+100 proyectos
@@ -167,11 +193,13 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
     Enlazarlas desde el menú (hoy todas apuntan a #services).
 [ ] (Claude) Nuevas páginas de zona: San Pedro de Alcántara, Benahavís,
     Mijas, Fuengirola, Sotogrande. Con contenido propio de cada zona, no copias.
-[~] (Claude) Mejorar los títulos de las páginas de zona: "Reformas integrales en X | Refycon PRO".
-    Hecho en marbella.html. Pendiente: estepona, manilva, malaga.
-[ ] (Claude) Rediseñar estepona.html, manilva.html, malaga.html y
-    servicios/urgencias.html con la misma plantilla que marbella.html
-    (subpages.css). Siguen con el diseño antiguo de boceto.
+[x] (Claude) Títulos "Reformas integrales en X | Refycon PRO" en todas las zonas (2026-11-04).
+[x] (Claude) Todas las subpáginas (4 zonas + reformas + urgencias) con la nueva plantilla (2026-11-04).
+[ ] (Tú) Revisar los textos nuevos de Estepona, Manilva y Málaga (ver registro
+    del 2026-11-04). En especial Manilva: promete enviar fotos del avance de
+    la obra por WhatsApp a propietarios que no viven en la zona. Confirmar que lo hacéis.
+[ ] (Tú) Urgencias 24h: la página promete atención 24/7/365 y llegada en
+    30-60 min (textos que ya estaban). Confirmar que es real; si no, ajustarlo.
 [x] (Tú) Cifra real de proyectos: 13 proyectos completados (2026-11-04).
     Puesta en marbella.html y reformas.html. Usar siempre esta cifra.
 [x] Reseñas inventadas quitadas del schema (2026-11-04). Cuando haya
