@@ -38,7 +38,25 @@ REGISTRO DE CAMBIOS HECHOS
     en Marbella, San Pedro de Alcántara, Estepona, Benahavís, Manilva, Mijas,
     Fuengirola y Málaga. Visita técnica gratuita, presupuesto cerrado y
     garantía de 2 años."
-[ ] (Claude) Preparar lista de servicios de la ficha y mensaje para pedir reseñas.
+[x] Mensajes de WhatsApp para pedir reseña preparados (al terminar obra / cliente antiguo).
+[ ] (Claude) Preparar lista de servicios de la ficha.
+
+## 2026-11-04 - Situación de partida (información tuya)
+
+- Nombre anterior: "MQ Marbella Quality servicios patagonia". Empresa dejada
+  hace tiempo. Nunca tuvo ficha en Google ni reseñas online (comprobado:
+  no aparece nada en internet). Se empieza de cero en Google.
+- Los clientes llegaban por Páginas Amarillas y Milanuncios.
+- Los 13 proyectos son de esa etapa; casi ningún cliente es localizable.
+- NO pedir reseñas a amigos, familia ni proveedores (Google las borra y penaliza).
+
+[ ] (Tú) Pedir reseña en CADA trabajo nuevo el día de la entrega (botón
+    "Pedir reseñas" de Google Business -> enlace por WhatsApp).
+[ ] (Tú) Pedir reseña a los pocos clientes antiguos que se puedan localizar.
+[ ] (Tú) Anuncios de Milanuncios y Páginas Amarillas con el nombre Refycon PRO,
+    teléfono +34 613 446 457 y web www.refyconpro.com (siempre igual).
+[ ] (Tú) Alta en Habitissimo y Cronoshare con los mismos datos.
+[ ] (Tú) 1 publicación por semana en Google Business (foto de obra / antes-después).
 
 ## 2026-11-04 - Rediseño de Estepona, Manilva, Málaga y Urgencias (Claude)
 
