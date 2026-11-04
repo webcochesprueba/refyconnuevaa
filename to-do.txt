@@ -30,6 +30,18 @@ REGISTRO DE CAMBIOS HECHOS
     No hay más cifras de proyectos en la web.
 [x] Confirmado por ti: los gremios son equipo propio con jefe de obra.
 
+## 2026-11-04 - Quitadas valoraciones del schema (Claude)
+
+[x] Eliminados "aggregateRating" (4,9 estrellas, 127 reseñas) y "review"
+    (reseña de "María González") de los datos estructurados de
+    index.html e index-en/fr/de/it/nl/ru.html. No eran reseñas reales y
+    Google penaliza las valoraciones inventadas. JSON validado.
+    No había estrellas ni reseñas en el texto visible.
+[x] zonas/marbella.html: "hemos completado numerosos proyectos de alto
+    standing" -> "bastantes proyectos de alto standing" (FAQ visible y schema).
+[ ] REGLA: no volver a poner valoraciones en el schema hasta que existan
+    reseñas reales (Google Business). Entonces usar la nota y el número reales.
+
 ## 2026-11-04 - Rediseño de zonas/marbella.html y servicios/reformas.html (Claude)
 
 [x] Nuevo subpages.css: estilos comunes para subpáginas, basados en
@@ -162,12 +174,9 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
     (subpages.css). Siguen con el diseño antiguo de boceto.
 [x] (Tú) Cifra real de proyectos: 13 proyectos completados (2026-11-04).
     Puesta en marbella.html y reformas.html. Usar siempre esta cifra.
-[ ] (Tú/Claude) El schema de index.html y de las 6 versiones de idioma dice
-    4,9 estrellas con 127 reseñas y una reseña de "María González". Si no
-    son reseñas reales y verificables, quitarlo: Google penaliza las
-    valoraciones inventadas en los datos estructurados.
-[ ] (Tú) Las FAQ de marbella.html dicen "hemos completado numerosos
-    proyectos de alto standing". Confirmar que encaja con 13 proyectos.
+[x] Reseñas inventadas quitadas del schema (2026-11-04). Cuando haya
+    reseñas reales en Google Business se pueden volver a mostrar.
+[x] FAQ de Marbella: "numerosos" -> "bastantes proyectos de alto standing".
 [ ] (Tú) Confirmar si las fotos de furgonetas/equipo (furgoempleados,
     furgoneta) son reales o montajes. No se usan hasta confirmarlo.
 [x] Nota corregida: el pie de la portada SÍ se ve (no hay display:none en .footer-grid).
