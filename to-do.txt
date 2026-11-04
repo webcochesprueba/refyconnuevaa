@@ -23,6 +23,23 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-04 - Google Business Profile (Tú)
+
+[x] Ficha de Google Business actualizada.
+[~] Descripción propuesta por Claude (722 de 750 caracteres), pendiente de pegar:
+    "Refycon PRO es una empresa de reformas integrales y construcción en
+    Marbella y la Costa del Sol, con más de 25 años de experiencia. Nos
+    encargamos de la reforma completa de pisos, casas y villas, de principio
+    a fin, con equipo propio de cada gremio: albañilería, fontanería,
+    electricidad, carpintería, solados, pintura y acabados. Un jefe de obra
+    coordina todo y es tu único interlocutor. / También hacemos reformas de
+    baños y cocinas, obra nueva y villas, Steel Frame, piscinas y hormigón
+    pulido, y atendemos urgencias de fontanería y electricidad. / Trabajamos
+    en Marbella, San Pedro de Alcántara, Estepona, Benahavís, Manilva, Mijas,
+    Fuengirola y Málaga. Visita técnica gratuita, presupuesto cerrado y
+    garantía de 2 años."
+[ ] (Claude) Preparar lista de servicios de la ficha y mensaje para pedir reseñas.
+
 ## 2026-11-04 - Rediseño de Estepona, Manilva, Málaga y Urgencias (Claude)
 
 [x] zonas/estepona.html, manilva.html y malaga.html con la misma plantilla
