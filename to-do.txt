@@ -23,6 +23,13 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-04 - Cifra de proyectos (Claude)
+
+[x] "+200 proyectos en Marbella" (marbella.html) y "+100 proyectos
+    completados" (reformas.html) -> "13 proyectos completados".
+    No hay más cifras de proyectos en la web.
+[x] Confirmado por ti: los gremios son equipo propio con jefe de obra.
+
 ## 2026-11-04 - Rediseño de zonas/marbella.html y servicios/reformas.html (Claude)
 
 [x] Nuevo subpages.css: estilos comunes para subpáginas, basados en
@@ -153,9 +160,14 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
 [ ] (Claude) Rediseñar estepona.html, manilva.html, malaga.html y
     servicios/urgencias.html con la misma plantilla que marbella.html
     (subpages.css). Siguen con el diseño antiguo de boceto.
-[ ] (Tú) Revisar cifras: zonas/marbella.html dice "+200 proyectos en
-    Marbella" y servicios/reformas.html "+100 proyectos completados".
-    Son contradictorias; decir la cifra real y la pongo igual en todas.
+[x] (Tú) Cifra real de proyectos: 13 proyectos completados (2026-11-04).
+    Puesta en marbella.html y reformas.html. Usar siempre esta cifra.
+[ ] (Tú/Claude) El schema de index.html y de las 6 versiones de idioma dice
+    4,9 estrellas con 127 reseñas y una reseña de "María González". Si no
+    son reseñas reales y verificables, quitarlo: Google penaliza las
+    valoraciones inventadas en los datos estructurados.
+[ ] (Tú) Las FAQ de marbella.html dicen "hemos completado numerosos
+    proyectos de alto standing". Confirmar que encaja con 13 proyectos.
 [ ] (Tú) Confirmar si las fotos de furgonetas/equipo (furgoempleados,
     furgoneta) son reales o montajes. No se usan hasta confirmarlo.
 [x] Nota corregida: el pie de la portada SÍ se ve (no hay display:none en .footer-grid).
