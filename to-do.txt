@@ -18,6 +18,44 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-04 - Search Console (Tú)
+
+[x] Propiedad refyconpro.com verificada en Google Search Console.
+[x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
+
+## 2026-11-04 - Rediseño de zonas/marbella.html y servicios/reformas.html (Claude)
+
+[x] Nuevo subpages.css: estilos comunes para subpáginas, basados en
+    styles.css (mismos colores azules, tipografía, botones y secciones).
+[x] Las dos páginas usan ahora la misma cabecera, menú móvil, pie,
+    barra inferior móvil y botón flotante de WhatsApp que la portada.
+    Antes la cabecera salía rota (clases que no existían en styles.css)
+    y los iconos no cargaban.
+[x] Hero igual que el de la portada: foto de fondo, título en mayúsculas
+    con azul, insignias y formulario oscuro a la derecha (en móvil se
+    muestra debajo del texto). El formulario envía a Formspree con
+    campos ocultos de zona/servicio y página de origen.
+[x] Nuevas secciones: ruta de navegación (Inicio > Zonas > Marbella),
+    tarjetas de servicio con fotos reales, antes/después (mismo slider
+    de la portada), preguntas frecuentes visibles (mismo texto que el
+    schema FAQ, Google lo exige), franja de garantías y llamada final
+    con Llamar / WhatsApp / Presupuesto.
+[x] reformas.html: añadidas las secciones "Todos los gremios en un solo
+    equipo" y "Cómo trabajamos" (4 pasos), y enlaces a las páginas de zona.
+[x] marbella.html: tarjetas enlazan a reformas.html y urgencias.html.
+[x] Arreglado HTML cortado en marbella.html (og:description sin cerrar,
+    título de la tarjeta Steel Frame y opción del formulario vacíos).
+[x] Títulos nuevos:
+      Marbella: "Reformas Integrales y Construcción en Marbella | Refycon PRO"
+      Reformas: "Reformas Integrales en Marbella y Costa del Sol | Refycon PRO"
+[x] Añadido Google Tag Manager + GA4 a las dos páginas (reformas no tenía).
+[x] Imágenes nuevas optimizadas en WebP: hero-marbella.webp, hero-reformas.webp,
+    villa-marbella-obra.webp, reformaintegral.webp, bano1/2, cocina1/2,
+    pintura1/2.webp (de 1,4 MB a ~100 KB cada una).
+[x] Comprobado en escritorio (1366 px) y móvil (390 px): sin scroll
+    horizontal, sin enlaces rotos, etiquetas HTML bien cerradas.
+[x] sitemap.xml: lastmod 2026-11-04 en las dos páginas.
+
 ## 2026-11-03 - Teléfono único (Claude)
 
 [x] Teléfono principal decidido: +34 613 446 457.
@@ -71,13 +109,10 @@ PENDIENTE - PRIORIDAD 1 (esta semana)
 ------------------------------------------------------------------------------
 
 [~] (Tú) Google Search Console: propiedad de dominio refyconpro.com.
-    2026-11-03: registro DNS de verificación (TXT) añadido en Vercel,
-    esperando propagación. NO borrar ese registro TXT nunca: si se quita,
-    Search Console pierde la verificación.
-    [ ] Verificar la propiedad
-    [ ] Enviar el sitemap: sitemap.xml
-    [ ] Inspeccionar URL https://www.refyconpro.com/ -> Solicitar indexación
-    [ ] Igual con zonas/marbella.html y servicios/reformas.html
+    NO borrar nunca el registro TXT de verificación en Vercel.
+    [x] Verificar la propiedad (2026-11-04)
+    [x] Enviar el sitemap: sitemap.xml (2026-11-04)
+    [x] Solicitar indexación de portada, zonas/marbella.html y servicios/reformas.html
     [ ] A los 3-7 días: revisar Páginas (indexadas / no indexadas) y avisar a Claude
 [ ] (Tú) Google Business Profile: comprobar si existe ficha "Refycon" en
     Google Maps y con qué cuenta. Si no existe, crearla (ver plan).
@@ -113,11 +148,17 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
     Enlazarlas desde el menú (hoy todas apuntan a #services).
 [ ] (Claude) Nuevas páginas de zona: San Pedro de Alcántara, Benahavís,
     Mijas, Fuengirola, Sotogrande. Con contenido propio de cada zona, no copias.
-[ ] (Claude) Mejorar los títulos de las páginas de zona: hoy empiezan por
-    "Construcción y Reformas en X"; mejor "Reformas integrales en X | Refycon PRO".
-[ ] (Tú/Claude) Decidir si se muestran las columnas del pie de página: en
-    styles.css .footer-grid tiene display:none, así que los enlaces del pie
-    no se ven (Google sí los lee, pero con menos peso).
+[~] (Claude) Mejorar los títulos de las páginas de zona: "Reformas integrales en X | Refycon PRO".
+    Hecho en marbella.html. Pendiente: estepona, manilva, malaga.
+[ ] (Claude) Rediseñar estepona.html, manilva.html, malaga.html y
+    servicios/urgencias.html con la misma plantilla que marbella.html
+    (subpages.css). Siguen con el diseño antiguo de boceto.
+[ ] (Tú) Revisar cifras: zonas/marbella.html dice "+200 proyectos en
+    Marbella" y servicios/reformas.html "+100 proyectos completados".
+    Son contradictorias; decir la cifra real y la pongo igual en todas.
+[ ] (Tú) Confirmar si las fotos de furgonetas/equipo (furgoempleados,
+    furgoneta) son reales o montajes. No se usan hasta confirmarlo.
+[x] Nota corregida: el pie de la portada SÍ se ve (no hay display:none en .footer-grid).
 [ ] (Claude) Selector de idioma visible: las versiones en/fr/de/it/nl/ru
     existen pero ninguna página las enlaza de forma visible.
 [ ] (Claude) Quitar <meta name="keywords"> (Google lo ignora).
