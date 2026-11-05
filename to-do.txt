@@ -68,6 +68,16 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Mensajes de WhatsApp para pedir reseña preparados (al terminar obra / cliente antiguo).
 [x] (Claude) Lista de servicios de la ficha preparada (2026-11-05, ver más abajo).
 [ ] (Tú) Añadir esos servicios en la ficha de Google Business.
+    Servicios propuestos (nombre: descripción, máx. 300 caracteres):
+    - Reformas integrales: Reforma completa de pisos, casas y villas con equipo propio de cada gremio y un jefe de obra como único interlocutor. Presupuesto cerrado y garantía de 2 años.
+    - Reformas de baños: Baño completo o cambio de bañera por plato de ducha a ras de suelo: alicatado, sanitarios, grifería, mueble e instalaciones nuevas. Obra en 2-4 semanas.
+    - Reformas de cocinas: Cocinas a medida, cocinas abiertas al salón, encimeras, electrodomésticos integrados e instalaciones nuevas. Obra en 2-4 semanas.
+    - Reformas de locales comerciales: Adaptamos tu local a tu negocio: diseño comercial, instalaciones, accesibilidad y licencias.
+    - Obra nueva y construcción de villas: Construcción de viviendas y villas a medida en la Costa del Sol, desde la estructura hasta los acabados.
+    - Steel Frame: Construcción con estructura de acero galvanizado: más rápida, resistente y eficiente que la obra tradicional.
+    - Hormigón pulido: Suelos y acabados de hormigón pulido para interiores y exteriores: modernos, resistentes y duraderos.
+    - Pintura y acabados: Pintura interior y exterior, fachadas y acabados de calidad.
+    - Urgencias de fontanería y electricidad 24h: Fugas, atascos, inundaciones, cortocircuitos y apagones, las 24 horas y los 365 días. Tiempo medio de llegada de 30-60 minutos.
 
 ## 2026-11-04 - Situación de partida (información tuya)
 
