@@ -23,10 +23,37 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-05 - Baños, cocinas, FAQ de portada y fuente (Claude)
+
+[x] Nuevas páginas servicios/reformas-banos.html y servicios/reformas-cocinas.html
+    con la plantilla de subpáginas: hero con formulario (campo propio
+    "tipo_bano" / "tipo_cocina"), 4 tarjetas de qué hacemos, proceso en
+    4 pasos, antes/después, zonas, 3 FAQ (visibles = schema) y CTA.
+    Plazos usados: 2-4 semanas y garantía 2 años (los mismos que ya
+    decía la web). NO se han puesto precios de baños/cocinas: no hay
+    cifra confirmada.
+[x] Enlazadas desde el menú, menú móvil y pie de la portada y de todas
+    las subpáginas, y desde las tarjetas de servicios/reformas.html.
+    En la portada "Reformas de Baños y Cocinas" -> dos enlaces separados.
+[x] sitemap.xml: añadidas las 2 páginas (17 URLs).
+[x] Portada: las 5 preguntas frecuentes del schema no se veían en la
+    página (Google lo exige). Ahora hay una sección visible
+    "Preguntas Frecuentes" antes de la franja de garantías. Textos
+    corregidos: "Refycon" -> "Refycon PRO" y lista de servicios real
+    (quitados diseño arquitectónico, interiorismo y paisajismo, que no
+    se ofrecen en ninguna otra parte de la web). La portada carga
+    ahora también subpages.css (solo añade estilos nuevos).
+[x] Fuente Inter (Google Fonts) añadida a las 8 subpáginas: la portada
+    la usaba y las subpáginas no, así que la letra era distinta.
+[x] Comprobado: 8 subpáginas + portada sin enlaces rotos, etiquetas
+    bien cerradas, FAQ visibles = schema, títulos distintos.
+[ ] (Tú) Search Console: pedir indexación de servicios/reformas-banos.html
+    y servicios/reformas-cocinas.html.
+
 ## 2026-11-04 - Google Business Profile (Tú)
 
 [x] Ficha de Google Business actualizada.
-[~] Descripción propuesta por Claude (722 de 750 caracteres), pendiente de pegar:
+[x] Descripción pegada en la ficha (2026-11-05). Texto (722 de 750 caracteres):
     "Refycon PRO es una empresa de reformas integrales y construcción en
     Marbella y la Costa del Sol, con más de 25 años de experiencia. Nos
     encargamos de la reforma completa de pisos, casas y villas, de principio
@@ -39,7 +66,8 @@ REGISTRO DE CAMBIOS HECHOS
     Fuengirola y Málaga. Visita técnica gratuita, presupuesto cerrado y
     garantía de 2 años."
 [x] Mensajes de WhatsApp para pedir reseña preparados (al terminar obra / cliente antiguo).
-[ ] (Claude) Preparar lista de servicios de la ficha.
+[x] (Claude) Lista de servicios de la ficha preparada (2026-11-05, ver más abajo).
+[ ] (Tú) Añadir esos servicios en la ficha de Google Business.
 
 ## 2026-11-04 - Situación de partida (información tuya)
 
@@ -189,6 +217,8 @@ PENDIENTE - PRIORIDAD 1 (esta semana)
 ------------------------------------------------------------------------------
 
 [~] (Tú) Google Search Console: propiedad de dominio refyconpro.com.
+    2026-11-05: el informe "Páginas" aún dice "procesando datos", pero
+    buscar "refycon pro manilva" ya muestra zonas/manilva.html en Google.
     NO borrar nunca el registro TXT de verificación en Vercel.
     [x] Verificar la propiedad (2026-11-04)
     [x] Enviar el sitemap: sitemap.xml (2026-11-04)
@@ -223,7 +253,10 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
     Propuesta: "Refycon PRO" siempre.
 [ ] (Claude) Schema LocalBusiness: dirección real o zona de servicio
     (hoy pone "Costa del Sol" como calle), teléfono único, horario, enlace a la ficha de Google.
-[ ] (Claude) Nuevas páginas de servicio: reformas de cocinas, reformas de
+[~] (Claude) Nuevas páginas de servicio. Hechas: reformas-banos.html y
+    reformas-cocinas.html (2026-11-05). Pendientes: villas, steel frame,
+    hormigón pulido, pintura.
+    (antes: reformas de cocinas, reformas de
     baños, construcción de villas, steel frame, hormigón pulido, pintura.
     Enlazarlas desde el menú (hoy todas apuntan a #services).
 [ ] (Claude) Nuevas páginas de zona: San Pedro de Alcántara, Benahavís,
@@ -233,8 +266,7 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
 [ ] (Tú) Revisar los textos nuevos de Estepona, Manilva y Málaga (ver registro
     del 2026-11-04). En especial Manilva: promete enviar fotos del avance de
     la obra por WhatsApp a propietarios que no viven en la zona. Confirmar que lo hacéis.
-[ ] (Tú) Urgencias 24h: la página promete atención 24/7/365 y llegada en
-    30-60 min (textos que ya estaban). Confirmar que es real; si no, ajustarlo.
+[x] (Tú) Urgencias 24h confirmado (2026-11-05): se mantiene 24/7/365 y 30-60 min.
 [x] (Tú) Cifra real de proyectos: 13 proyectos completados (2026-11-04).
     Puesta en marbella.html y reformas.html. Usar siempre esta cifra.
 [x] Reseñas inventadas quitadas del schema (2026-11-04). Cuando haya
