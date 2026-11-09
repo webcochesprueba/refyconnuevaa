@@ -23,6 +23,28 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-09 - Analítica solo por Tag Manager (Claude + Tú)
+
+- Comprobado que el contenedor GTM-NH32BX8J (nombre "www.refycon.com",
+  solo es una etiqueta, no hace falta cambiarlo) estaba vacío: la medición
+  real la hacía el gtag.js directo (G-CSKRKT0M9J).
+[x] (Tú) Añadida y publicada en GTM-NH32BX8J la etiqueta de Google
+    G-CSKRKT0M9J.
+[x] (Claude) Quitado gtag.js directo de todas las páginas. Ahora todas
+    cargan SOLO GTM-NH32BX8J: 7 portadas, 8 subpáginas, 5 /en/, cookies,
+    contact, privacidad y 404 (estas 3 últimas antes no medían nada).
+    Las 6 portadas de idiomas no tenían GTM: añadido.
+    En todas: consentimiento "denied" por defecto ANTES de GTM y aviso
+    de cookies (cookie-consent.js). Probado en navegador.
+[ ] GTM-T9BC6MQK (contenedor nuevo que creaste): no se usa. Borrarlo o
+    dejarlo, pero no instalarlo.
+[ ] (Tú) Comprobar en Google Analytics > Informes > Tiempo real que
+    siguen entrando visitas (aceptando las cookies en la web).
+[ ] Google Ads: pendiente de decidir presupuesto. Antes de lanzar, Claude
+    prepara: eventos de conversión (formulario, clic en llamar, clic en
+    WhatsApp) en el dataLayer y aviso de cookies con categoría de
+    publicidad (Consent Mode v2: ad_storage, ad_user_data, ad_personalization).
+
 ## 2026-11-09 (mediodía) - Versión en inglés y menú de zonas (Claude)
 
 [x] 5 páginas en inglés en /en/ (generadas desde las españolas con
@@ -92,9 +114,7 @@ Medición (móvil, sin caché):          ANTES        DESPUÉS
     (2.000-3.500 €/m² gama alta en Marbella/Benahavís).
 [ ] (Tú) Marbella sigue diciendo 800-1.500 €/m² para villas (texto
     original). ¿Se iguala a la referencia de Benahavís?
-[ ] GTM y gtag.js se cargan los dos: si el contenedor GTM-NH32BX8J ya
-    lleva la etiqueta de GA4, se cuentan visitas dobles. Revisar en
-    tagmanager.google.com y quitar uno de los dos.
+[x] GTM/gtag resuelto (2026-11-09): ver registro "Analítica solo por Tag Manager".
 [ ] Si se crea otra zona con el generador, crear antes su foto -m.webp.
 
 ## 2026-11-09 - San Pedro, Benahavís, cookies y limpieza (Claude)
