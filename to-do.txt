@@ -23,6 +23,40 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-09 - Google Ads: web preparada (Claude)
+
+Decisión: el jefe prefiere usar Google Ads. El usuario irá preguntando paso a
+paso y Claude le guía.
+
+[x] cookie-consent.js reescrito:
+    - Aviso con Rechazar / Configurar / Aceptar en 7 idiomas. "Configurar"
+      permite elegir Analítica y Publicidad por separado.
+    - Consent Mode v2: analytics_storage + ad_storage, ad_user_data,
+      ad_personalization. Elección en localStorage como JSON
+      {"v":2,"a":bool,"ad":bool}. Quien eligió con el aviso antiguo
+      (solo analítica) vuelve a ver el aviso una vez.
+    - Al rechazar, borra cookies _ga/_gid (analítica) y _gcl_/_gac_ (Ads).
+[x] Fragmento de consentimiento del <head> actualizado en las 26 páginas
+    (lee el nuevo formato y aplica también la publicidad).
+[x] EVENTOS en dataLayer para usar como conversiones en GTM/Google Ads:
+      clic_llamar       -> clic en cualquier enlace tel:
+      clic_whatsapp     -> clic en enlaces wa.me
+      clic_email        -> clic en enlaces mailto:
+      envio_formulario  -> envío válido de formulario Formspree
+    Variables en cada evento: pagina, idioma, y servicio / zona si existen.
+    Probado en navegador.
+[x] cookies.html: añadida cookie _gcl_au (Google Ads, 3 meses) y la
+    opción "Configurar".
+[ ] (Tú, guiado por Claude) Crear cuenta de Google Ads en modo experto,
+    vincular con Google Analytics, crear conversiones y la primera campaña
+    de búsqueda.
+[ ] (Tú, guiado por Claude) En GTM-NH32BX8J: activadores de evento
+    personalizado para los 4 eventos, etiqueta "Vinculación de
+    conversiones" (Conversion Linker) y etiquetas de conversión de Google
+    Ads (cuando existan los IDs de conversión).
+[ ] index-en.html: el titular sigue diciendo "Renovations & Construction of
+    quality" y el texto menciona "design". Cambiar como en la portada española.
+
 ## 2026-11-09 - Analítica solo por Tag Manager (Claude + Tú)
 
 - Comprobado que el contenedor GTM-NH32BX8J (nombre "www.refycon.com",
@@ -40,10 +74,7 @@ REGISTRO DE CAMBIOS HECHOS
     dejarlo, pero no instalarlo.
 [ ] (Tú) Comprobar en Google Analytics > Informes > Tiempo real que
     siguen entrando visitas (aceptando las cookies en la web).
-[ ] Google Ads: pendiente de decidir presupuesto. Antes de lanzar, Claude
-    prepara: eventos de conversión (formulario, clic en llamar, clic en
-    WhatsApp) en el dataLayer y aviso de cookies con categoría de
-    publicidad (Consent Mode v2: ad_storage, ad_user_data, ad_personalization).
+[x] Web preparada para Google Ads (2026-11-09): ver registro "Google Ads".
 
 ## 2026-11-09 (mediodía) - Versión en inglés y menú de zonas (Claude)
 
