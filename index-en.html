@@ -75,6 +75,7 @@
   <link rel="preload" href="banner2.webp" as="image" type="image/webp" media="(min-width: 769px)" />
   <link rel="preload" href="banner2-m.webp" as="image" type="image/webp" media="(max-width: 768px)" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="subpages.css" />
   
   <style>
     .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.55s ease, transform 0.55s ease; }
@@ -146,11 +147,46 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {"@type":"Question","name":"What services does Refycon offer?","acceptedAnswer":{"@type":"Answer","text":"Refycon offers complete construction and premium renovation services on the Costa del Sol: comprehensive home and commercial renovations, new builds, architectural design, interior design, landscaping and 24/7 emergency services."}},
-      {"@type":"Question","name":"Which areas do you serve?","acceptedAnswer":{"@type":"Answer","text":"Refycon operates throughout the Costa del Sol, including Málaga, Marbella, Estepona, Manilva, Fuengirola, Benalmádena, Torremolinos and nearby towns."}},
-      {"@type":"Question","name":"How long does a comprehensive renovation take?","acceptedAnswer":{"@type":"Answer","text":"The duration depends on the project scope. A standard home renovation typically takes 2-4 months. We provide detailed timelines with each quote."}},
-      {"@type":"Question","name":"Do you offer free quotes?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer free, no-obligation quotes. We visit your property, assess the project, and provide a detailed quote with breakdown of costs."}},
-      {"@type":"Question","name":"Do you have 24-hour emergency service?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer 24/7 emergency service for plumbing and electrical issues."}}
+      {
+        "@type": "Question",
+        "name": "What services does Refycon PRO offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Refycon PRO offers full renovations of homes and commercial premises, bathroom and kitchen renovations, new builds and villa construction, pools, polished concrete, painting and finishes, and a 24-hour emergency plumbing and electrical service on the Costa del Sol."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which areas do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We work across the Costa del Sol: Marbella, San Pedro de Alcántara, Estepona, Benahavís, Manilva, Mijas, Fuengirola, Benalmádena, Torremolinos, Málaga and nearby towns."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a full renovation take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the scope of the project. A standard home renovation usually takes 2 to 4 months. We give you a detailed schedule with every quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer free quotes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer free, no-obligation quotes. We visit your property, assess the project and give you a detailed, itemised quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you have a 24-hour emergency service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer a 24/7 emergency service for plumbing and electrical problems."
+        }
+      }
     ]
   }
   </script>
@@ -194,11 +230,19 @@
         <li class="nav-dropdown">
           <a href="#services">Services</a>
           <ul class="dropdown-menu">
-            <li><a href="#services">Comprehensive Renovations</a></li>
+            <li><a href="en/full-renovations.html">Full Renovations</a></li>
             <li><a href="#services">Construction</a></li>
-            <li><a href="#services">Bathroom & Kitchen Renovations</a></li>
+            <li><a href="en/bathroom-renovations.html">Bathroom Renovations</a></li>
+            <li><a href="en/kitchen-renovations.html">Kitchen Renovations</a></li>
             <li><a href="#services">Villa Construction</a></li>
             <li><a href="#services">Polished Concrete</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#locations">Areas</a>
+          <ul class="dropdown-menu">
+            <li><a href="en/renovations-marbella.html">Marbella</a></li>
+            <li><a href="en/renovations-benahavis.html">Benahavís</a></li>
           </ul>
         </li>
         <li><a href="#projects">Projects</a></li>
@@ -223,11 +267,14 @@
   <nav class="mobile-nav" id="mobileNav">
     <a href="#hero">Home</a>
     <a href="#services">Services</a>
-    <a href="#services">— Comprehensive Renovations</a>
+    <a href="en/full-renovations.html">— Full Renovations</a>
     <a href="#services">— Construction</a>
-    <a href="#services">— Bathroom & Kitchen Renovations</a>
+    <a href="en/bathroom-renovations.html">— Bathroom Renovations</a>
+    <a href="en/kitchen-renovations.html">— Kitchen Renovations</a>
     <a href="#services">— Villa Construction</a>
     <a href="#services">— Polished Concrete</a>
+    <a href="en/renovations-marbella.html">— Marbella</a>
+    <a href="en/renovations-benahavis.html">— Benahavís</a>
     <a href="#projects">Projects</a>
     <a href="#promo-info">Company</a>
     <a href="contact.html">Contact</a>
@@ -343,9 +390,9 @@
     <div class="container">
       <p>Experts in renovations and construction in Marbella and Costa del Sol</p>
       <div class="location-pins">
-        <div class="location-pin"><span class="pin-icon">📍</span> Marbella</div>
+        <a href="en/renovations-marbella.html" class="location-pin"><span class="pin-icon">📍</span> Marbella</a>
         <div class="location-pin"><span class="pin-icon">📍</span> Estepona</div>
-        <div class="location-pin"><span class="pin-icon">📍</span> Benahavís</div>
+        <a href="en/renovations-benahavis.html" class="location-pin"><span class="pin-icon">📍</span> Benahavís</a>
         <div class="location-pin"><span class="pin-icon">📍</span> Mijas</div>
         <div class="location-pin"><span class="pin-icon">📍</span> Fuengirola</div>
         <div class="location-pin"><span class="pin-icon">📍</span> Sotogrande</div>
@@ -472,6 +519,38 @@
   </section>
 
   <!-- ===== PROMO INFO ===== -->
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="sp-section alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Frequently Asked Questions</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>What services does Refycon PRO offer?</summary>
+          <p>Refycon PRO offers full renovations of homes and commercial premises, bathroom and kitchen renovations, new builds and villa construction, pools, polished concrete, painting and finishes, and a 24-hour emergency plumbing and electrical service on the Costa del Sol.</p>
+        </details>
+        <details>
+          <summary>Which areas do you serve?</summary>
+          <p>We work across the Costa del Sol: Marbella, San Pedro de Alcántara, Estepona, Benahavís, Manilva, Mijas, Fuengirola, Benalmádena, Torremolinos, Málaga and nearby towns.</p>
+        </details>
+        <details>
+          <summary>How long does a full renovation take?</summary>
+          <p>It depends on the scope of the project. A standard home renovation usually takes 2 to 4 months. We give you a detailed schedule with every quote.</p>
+        </details>
+        <details>
+          <summary>Do you offer free quotes?</summary>
+          <p>Yes, we offer free, no-obligation quotes. We visit your property, assess the project and give you a detailed, itemised quote.</p>
+        </details>
+        <details>
+          <summary>Do you have a 24-hour emergency service?</summary>
+          <p>Yes, we offer a 24/7 emergency service for plumbing and electrical problems.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <section id="promo-info">
     <div class="promo-info-grid fade-in">
       <div class="promo-info-item">
@@ -522,9 +601,10 @@
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="#services">Comprehensive Renovations</a></li>
+          <li><a href="en/full-renovations.html">Full Renovations</a></li>
           <li><a href="#services">Construction</a></li>
-          <li><a href="#services">Bathroom & Kitchen Renovations</a></li>
+          <li><a href="en/bathroom-renovations.html">Bathroom Renovations</a></li>
+          <li><a href="en/kitchen-renovations.html">Kitchen Renovations</a></li>
           <li><a href="#services">Villa Construction</a></li>
           <li><a href="#services">Polished Concrete</a></li>
         </ul>

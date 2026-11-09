@@ -23,6 +23,35 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-09 (mediodía) - Versión en inglés y menú de zonas (Claude)
+
+[x] 5 páginas en inglés en /en/ (generadas desde las españolas con
+    traducción completa, revisada con un script que detecta texto en español):
+      en/renovations-marbella.html     <- zonas/marbella.html
+      en/renovations-benahavis.html    <- zonas/benahavis.html
+      en/full-renovations.html         <- servicios/reformas.html
+      en/bathroom-renovations.html     <- servicios/reformas-banos.html
+      en/kitchen-renovations.html      <- servicios/reformas-cocinas.html
+    Menú y pie en inglés (solo enlazan a páginas en inglés o a index-en.html),
+    enlace "Español" a la página equivalente, aviso de cookies en inglés,
+    formulario con campo oculto idioma=en, schema traducido.
+[x] hreflang es/en/x-default en las 10 páginas (5 ES + 5 EN). Las 5
+    españolas tienen además enlace "English" en el menú.
+[x] index-en.html: menú Services con las 3 páginas nuevas, menú "Areas"
+    (Marbella, Benahavís), chinchetas de Marbella y Benahavís enlazadas,
+    FAQ visible (antes solo en schema; quitados diseño arquitectónico,
+    interiorismo y paisajismo del texto).
+[x] index.html: menú desplegable "Zonas" (escritorio y móvil) con las 6 zonas.
+[x] sitemap: 5 URLs en inglés con alternates (24 URLs).
+[x] 404.html: enlace roto en el menú arreglado.
+[ ] index-fr.html e index-de.html: su FAQ del schema no se ve en la página
+    (igual que pasaba en la española). Añadir FAQ visible traducida.
+[ ] Si se cambia un texto de una página española con versión inglesa,
+    actualizar también la inglesa (generador en.py del scratchpad de Claude;
+    si no está, traducir a mano).
+[ ] Próximas páginas en inglés recomendadas: San Pedro, Estepona, Urgencias.
+[ ] (Tú) Search Console: pedir indexación de las 5 páginas /en/.
+
 ## 2026-11-09 (tarde) - Velocidad, título de portada y precio Benahavís (Claude)
 
 Pedido por ti: "a veces con Ctrl+F5 tarda en cargar". Ctrl+F5 ignora la
@@ -119,7 +148,7 @@ Ficha de Google hecha e indexación pedida en Search Console.
 [ ] index2.html carga style.css, que no existe. Es la copia antigua en
     noindex: se puede borrar si no se usa para nada (decidir).
 [x] H1 de la portada cambiado (2026-11-09, con tu OK). Ver registro.
-[ ] La portada no tiene menú "Zonas" (las subpáginas sí). Añadirlo.
+[x] Menú "Zonas" añadido a la portada (2026-11-09).
 
 ## 2026-11-05 - Quitado Steel Frame (Claude)
 

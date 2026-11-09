@@ -239,4 +239,50 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Versiones en inglés -->
+  <url>
+    <loc>https://www.refyconpro.com/en/renovations-marbella.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/zonas/marbella.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/renovations-marbella.html" />
+  </url>
+
+  <url>
+    <loc>https://www.refyconpro.com/en/renovations-benahavis.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/zonas/benahavis.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/renovations-benahavis.html" />
+  </url>
+
+  <url>
+    <loc>https://www.refyconpro.com/en/full-renovations.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/servicios/reformas.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/full-renovations.html" />
+  </url>
+
+  <url>
+    <loc>https://www.refyconpro.com/en/bathroom-renovations.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/servicios/reformas-banos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/bathroom-renovations.html" />
+  </url>
+
+  <url>
+    <loc>https://www.refyconpro.com/en/kitchen-renovations.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/servicios/reformas-cocinas.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/kitchen-renovations.html" />
+  </url>
+
 </urlset>
