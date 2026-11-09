@@ -23,6 +23,62 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-09 - San Pedro, Benahavís, cookies y limpieza (Claude)
+
+Mientras tanto (Tú): alta en Habitissimo, Cronoshare y Páginas Amarillas.
+Ficha de Google hecha e indexación pedida en Search Console.
+
+[x] Nuevas zonas: zonas/san-pedro-alcantara.html y zonas/benahavis.html
+    (generadas desde marbella.html con texto, barrios y FAQ propios).
+    Precio FAQ Benahavís = el de villas de Marbella (800-1.500 €/m²).
+    Enlazadas en menú Zonas y pie de todas las subpáginas, chips de zona
+    y chinchetas de la portada (San Pedro añadida, Benahavís ahora enlace).
+    Imagen nueva villa-benahavis.webp (copia de hero-marbella.webp).
+    sitemap: 19 URLs.
+[x] AVISO DE COOKIES (obligatorio, LSSI art. 22.2 / guía AEPD):
+    - Modo de consentimiento de Google: GA4/GTM arrancan "denied" en todas
+      las páginas con analítica (fragmento al principio del <head>).
+    - cookie-consent.js: aviso con Aceptar / Rechazar igual de visibles,
+      traducido a es/en/fr/de/it/nl/ru, guarda la elección
+      (localStorage "refycon_consent"), al rechazar borra cookies _ga.
+      Cualquier enlace con data-cookie-settings reabre el aviso.
+    - Probado: aviso visible, elección recordada entre páginas,
+      consentimiento actualizado al aceptar/rechazar.
+[x] cookies.html: Política de Cookies (noindex), con tabla de cookies,
+    terceros, transferencias y botón "Configurar cookies". Estilos .legal en
+    subpages.css. Enlazada en el pie de todas las páginas y en los idiomas.
+[x] Pie: "Aviso Legal" (y sus traducciones) quitado porque apuntaba a "#";
+    "Privacidad" de los idiomas -> /privacidad.html; "Cookies" -> /cookies.html.
+[x] Enlaces vacíos quitados: Blog (menú, móvil y pie), "Ver Más Proyectos",
+    iconos de Facebook/Instagram/TikTok; logo -> portada. Ya no queda
+    ningún enlace a "#" en la web.
+[x] Títulos nuevos (y og/twitter):
+      Portada: "Reformas Integrales en Marbella y Costa del Sol | Refycon PRO"
+      Idiomas: "Renovation Company in Marbella & Costa del Sol | Refycon PRO", etc.
+      contact.html, privacidad.html y 404.html con "| Refycon PRO".
+[x] <meta name="keywords"> quitado de portada, en, fr y de.
+[x] 404.html: acentos rotos arreglados.
+[x] VELOCIDAD: fondo de la portada banner2.png (3,1 MB) -> banner2.webp
+    (132 KB) en styles.css, con preload en las portadas. Fotos de
+    antes/después de las portadas: PNG (550-730 KB) -> WebP. bano.webp
+    recomprimida (549 KB -> 37 KB).
+[x] Borradas 22 imágenes sin uso: banderas del antiguo selector, promo del
+    Mundial (bannerargentina.png), fotos de stock (grúa, istock, manitas),
+    banner2.jpg. Las referencias a la foto de la grúa y del operario en el
+    schema de portadas, sitemap y manifiesto -> fotos reales.
+[x] site.webmanifest estaba roto (JSON inválido): reescrito con nombre
+    Refycon PRO y accesos directos a presupuesto, reformas y urgencias.
+[x] sitemap: imagen pexels inexistente -> villa-marbella-obra.webp.
+[x] Comprobado: 22 páginas sin enlaces rotos ni imágenes que falten,
+    schema válido, sin scroll horizontal en móvil.
+[ ] index2.html carga style.css, que no existe. Es la copia antigua en
+    noindex: se puede borrar si no se usa para nada (decidir).
+[ ] (Tú/Claude) Propuesta: el H1 de la portada dice "Reformas & Construcción
+    de calidad en la Costa del Sol" y el texto habla de "diseño". Para SEO
+    sería mejor "Reformas integrales y construcción en Marbella y la Costa
+    del Sol" y quitar "diseño" mientras no se ofrezca. Pendiente de tu OK.
+[ ] La portada no tiene menú "Zonas" (las subpáginas sí). Añadirlo.
+
 ## 2026-11-05 - Quitado Steel Frame (Claude)
 
 [x] Steel Frame ya no se ofrece. Quitado de toda la web: menús, menú
@@ -275,9 +331,11 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
 
 [ ] (Tú) Datos legales: razón social, CIF y domicilio. Necesarios para el
     Aviso Legal (obligatorio por la LSSI).
-[ ] (Claude) Crear aviso-legal.html y cookies.html y enlazarlas en el pie
-    (hoy "Aviso Legal" y "Política de Cookies" apuntan a "#").
-[ ] (Claude) Unificar la marca en títulos, textos y schema: hoy conviven
+[~] (Claude) cookies.html hecha y enlazada (2026-11-09). Falta aviso-legal.html
+    (necesita los datos legales). El enlace "Aviso Legal" a "#" se ha quitado del pie
+    hasta que exista la página: volver a ponerlo entonces en todas las páginas.
+[~] (Claude) Unificar la marca en títulos, textos y schema. Títulos hechos
+    (2026-11-09); quedan textos del cuerpo y schema de portada/idiomas. Hoy conviven
     "REFYCON", "Refycon PRO" y "Refycon - Constructora Premium".
     Propuesta: "Refycon PRO" siempre.
 [ ] (Claude) Schema LocalBusiness: dirección real o zona de servicio
@@ -306,11 +364,11 @@ PENDIENTE - PRIORIDAD 2 (próximas 2-4 semanas)
 [x] Nota corregida: el pie de la portada SÍ se ve (no hay display:none en .footer-grid).
 [ ] (Claude) Selector de idioma visible: las versiones en/fr/de/it/nl/ru
     existen pero ninguna página las enlaza de forma visible.
-[ ] (Claude) Quitar <meta name="keywords"> (Google lo ignora).
-[ ] (Claude) Revisar "Blog" y "Ver Más Proyectos" (apuntan a "#"):
-    crear las páginas o quitar los enlaces.
-[ ] (Tú) Redes sociales: pasar URLs reales de Facebook/Instagram/TikTok
-    o se quitan los iconos (hoy apuntan a "#").
+[x] (Claude) <meta name="keywords"> quitado (2026-11-09).
+[x] (Claude) "Blog" y "Ver Más Proyectos" quitados (2026-11-09). Volver a
+    ponerlos si se crea el blog o una página de proyectos.
+[x] Iconos de Facebook/Instagram/TikTok sin perfil quitados (2026-11-09).
+[ ] (Tú) Si creáis perfiles en redes, pasarme las URLs y pongo los iconos.
 
 
 ------------------------------------------------------------------------------
@@ -325,8 +383,7 @@ PENDIENTE - PRIORIDAD 3 (1-3 meses)
 [ ] (Claude) Página de proyectos con una ficha por obra real.
 [ ] (Claude) Blog: 2 artículos al mes (precios de reformas en Marbella,
     licencias de obra, etc.).
-[ ] (Claude) Optimizar imágenes pesadas (banner2.png 3,2 MB,
-    bannerargentina.png 1,7 MB) y borrar las que no se usan.
+[x] (Claude) Imágenes optimizadas y archivos sin uso borrados (2026-11-09).
 [ ] (Claude) Limpiar el repo: carpeta app/ y next.config.js son restos de
     Next.js que no se usan (Vercel publica el HTML estático).
 

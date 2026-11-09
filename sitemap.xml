@@ -39,9 +39,9 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.refyconpro.com/index-ru.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.refyconpro.com/" />
     <image:image>
-      <image:loc>https://www.refyconpro.com/crane-on-construction-blue-sky-600nw-2644659717.webp</image:loc>
-      <image:title>Premium construction Costa del Sol</image:title>
-      <image:caption>Proyecto de construcción Refycon con grúa en la Costa del Sol</image:caption>
+      <image:loc>https://www.refyconpro.com/proyectovilla.webp</image:loc>
+      <image:title>Construcción de villa en la Costa del Sol</image:title>
+      <image:caption>Obra de Refycon PRO en la Costa del Sol</image:caption>
     </image:image>
   </url>
 
@@ -60,9 +60,9 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.refyconpro.com/index-ru.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.refyconpro.com/" />
     <image:image>
-      <image:loc>https://www.refyconpro.com/pexels-steffen-coonan-1005786-2098624.webp</image:loc>
-      <image:title>Équipe Refycon</image:title>
-      <image:caption>Ingénieurs Refycon trabajando en proyectos premium</image:caption>
+      <image:loc>https://www.refyconpro.com/villa-marbella-obra.webp</image:loc>
+      <image:title>Construction de villa sur la Costa del Sol</image:title>
+      <image:caption>Chantier de Refycon PRO sur la Costa del Sol</image:caption>
     </image:image>
   </url>
 
@@ -144,9 +144,9 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.refyconpro.com/index-ru.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.refyconpro.com/" />
     <image:image>
-      <image:loc>https://www.refyconpro.com/manitas-sitio-construccion-proceso-perforacion-pared-perforador_169016-12114.webp</image:loc>
-      <image:title>Equipo Refycon en obra</image:title>
-      <image:caption>Servicio de urgencias y mantenimiento 24/7</image:caption>
+      <image:loc>https://www.refyconpro.com/reformaintegral.webp</image:loc>
+      <image:title>Reforma integral en curso</image:title>
+      <image:caption>Reforma integral de Refycon PRO</image:caption>
     </image:image>
   </url>
   
@@ -199,6 +199,21 @@
     <lastmod>2026-11-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <!-- Zonas: San Pedro y Benahavís -->
+  <url>
+    <loc>https://www.refyconpro.com/zonas/san-pedro-alcantara.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.refyconpro.com/zonas/benahavis.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Servicios: baños y cocinas -->
