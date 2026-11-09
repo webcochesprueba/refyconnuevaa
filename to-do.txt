@@ -47,9 +47,20 @@ paso y Claude le guía.
     Probado en navegador.
 [x] cookies.html: añadida cookie _gcl_au (Google Ads, 3 meses) y la
     opción "Configurar".
-[ ] (Tú, guiado por Claude) Crear cuenta de Google Ads en modo experto,
-    vincular con Google Analytics, crear conversiones y la primera campaña
-    de búsqueda.
+[x] (Tú) Cuenta de Google Ads reactivada tras verificación del anunciante (2026-11-09).
+[x] (Tú) 3 conversiones creadas en Google Ads (recuento "Una", principales):
+      ID de conversión (cuenta): 18217138235
+      Formulario presupuesto  -> etiqueta caxdCI3flrUdELvwze5D  (evento envio_formulario)
+      Llamada desde web       -> etiqueta oIEXCKukl7UdELvwze5D  (evento clic_llamar)
+      Llamada a whatsapp      -> etiqueta FPZkCJrdj7UdELvwze5D  (evento clic_whatsapp)
+[x] (Claude) Archivo de importación para GTM: refycon-gtm-google-ads.json
+    (3 etiquetas de conversión de Ads, Vinculación de conversiones en todas
+    las páginas, evento GA4 con servicio/zona/pagina/idioma). Enviado al usuario.
+[ ] (Tú) Importar el archivo en GTM-NH32BX8J con "Combinar" + "Cambiar nombre" y publicar.
+[x] (Claude) Plan de campaña en el documento "Campaña Google Ads — Refycon PRO"
+    (Claude Docs): 1 campaña de búsqueda, 5 grupos (ES integrales, villas,
+    baños, cocinas; EN renovations), anuncios, negativas, recursos y revisión semanal.
+[ ] (Tú) Decidir presupuesto diario con el jefe y crear la campaña siguiendo el documento.
 [ ] (Tú, guiado por Claude) En GTM-NH32BX8J: activadores de evento
     personalizado para los 4 eventos, etiqueta "Vinculación de
     conversiones" (Conversion Linker) y etiquetas de conversión de Google
