@@ -56,10 +56,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="logo.png.webp">
   <link rel="manifest" href="/site.webmanifest">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="preload" href="banner2.webp" as="image" type="image/webp" />
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="banner2.webp" as="image" type="image/webp" media="(min-width: 769px)" />
+  <link rel="preload" href="banner2-m.webp" as="image" type="image/webp" media="(max-width: 768px)" />
   <link rel="stylesheet" href="styles.css" />
   
   <style>
@@ -97,7 +96,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="index-ru.html" class="nav-logo">
-        <img src="logoheader.webp" alt="REFYCON" class="nav-logo-img" />
+        <img src="logoheader.webp" width="682" height="167" alt="REFYCON" class="nav-logo-img" />
       </a>
       <ul class="nav-links">
         <li><a href="#hero">Главная</a></li>
@@ -213,12 +212,12 @@
     <div class="container">
       <div class="section-header fade-in"><h2>Наши Услуги</h2><div class="section-line"></div></div>
       <div class="services-grid">
-        <div class="service-card fade-in"><img src="reformainterior.jpeg" alt="Комплексный Ремонт" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏠</span><h3>Комплексный<br>Ремонт</h3></div><p>Преображаем ваш дом с современным и функциональным дизайном.</p></div>
-        <div class="service-card fade-in"><img src="construccion.jpg" alt="Строительство" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏗</span><h3>Строительство</h3></div><p>Новое строительство, частные дома и проекты на заказ.</p></div>
-        <div class="service-card fade-in"><img src="bano.webp" alt="Ванные и Кухни" class="service-img" /><div class="service-icon-row"><span class="service-icon">🛁</span><h3>Ванные &<br>Кухни</h3></div><p>Обновите ваши помещения с качеством и стилем.</p></div>
-        <div class="service-card fade-in"><img src="villa.jpg" alt="Строительство Вилл" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏡</span><h3>Строительство<br>Вилл</h3></div><p>Роскошные виллы на заказ в лучших районах Коста-дель-Соль.</p></div>
-        <div class="service-card fade-in"><img src="pintura.jpg" alt="Покраска и Отделка" class="service-img" /><div class="service-icon-row"><span class="service-icon">🎨</span><h3>Покраска &<br>Отделка</h3></div><p>Преображаем ваше пространство с высококачественной отделкой и уникальным дизайном.</p></div>
-        <div class="service-card fade-in"><img src="hormigon.jpg" alt="Полированный Бетон" class="service-img" /><div class="service-icon-row"><span class="service-icon">✨</span><h3>Полированный<br>Бетон</h3></div><p>Современные, прочные и долговечные покрытия.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="reformainterior-sm.webp" alt="Комплексный Ремонт" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏠</span><h3>Комплексный<br>Ремонт</h3></div><p>Преображаем ваш дом с современным и функциональным дизайном.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="construccion-sm.webp" alt="Строительство" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏗</span><h3>Строительство</h3></div><p>Новое строительство, частные дома и проекты на заказ.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="bano.webp" alt="Ванные и Кухни" class="service-img" /><div class="service-icon-row"><span class="service-icon">🛁</span><h3>Ванные &<br>Кухни</h3></div><p>Обновите ваши помещения с качеством и стилем.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="villa-sm.webp" alt="Строительство Вилл" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏡</span><h3>Строительство<br>Вилл</h3></div><p>Роскошные виллы на заказ в лучших районах Коста-дель-Соль.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="pintura-sm.webp" alt="Покраска и Отделка" class="service-img" /><div class="service-icon-row"><span class="service-icon">🎨</span><h3>Покраска &<br>Отделка</h3></div><p>Преображаем ваше пространство с высококачественной отделкой и уникальным дизайном.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="hormigon-sm.webp" alt="Полированный Бетон" class="service-img" /><div class="service-icon-row"><span class="service-icon">✨</span><h3>Полированный<br>Бетон</h3></div><p>Современные, прочные и долговечные покрытия.</p></div>
       </div>
       <p style="font-size: 0.75rem; color: #999; text-align: center; margin-top: 1.5rem; letter-spacing: 0.3px;">* Стоковые изображения используются в демонстрационных целях.</p>
     </div>
@@ -228,9 +227,9 @@
     <div class="container">
       <div class="section-header fade-in"><h2>Наши Проекты</h2><div class="section-line"></div></div>
       <div class="projects-grid">
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="bano1.webp" alt="До - Ванная" /><span class="slide-label">ДО</span></div><div class="project-slide"><img src="bano2.webp" alt="После - Ванная" /><span class="slide-label">ПОСЛЕ</span></div></div><button class="slider-btn prev" aria-label="Посмотреть до">‹</button><button class="slider-btn next" aria-label="Посмотреть после">›</button></div>
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="cocina1.webp" alt="До - Кухня" /><span class="slide-label">ДО</span></div><div class="project-slide"><img src="cocina2.webp" alt="После - Кухня" /><span class="slide-label">ПОСЛЕ</span></div></div><button class="slider-btn prev" aria-label="Посмотреть до">‹</button><button class="slider-btn next" aria-label="Посмотреть после">›</button></div>
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="pintura1.webp" alt="До - Покраска" /><span class="slide-label">ДО</span></div><div class="project-slide"><img src="pintura2.webp" alt="После - Покраска" /><span class="slide-label">ПОСЛЕ</span></div></div><button class="slider-btn prev" aria-label="Посмотреть до">‹</button><button class="slider-btn next" aria-label="Посмотреть после">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano1.webp" alt="До - Ванная" /><span class="slide-label">ДО</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano2.webp" alt="После - Ванная" /><span class="slide-label">ПОСЛЕ</span></div></div><button class="slider-btn prev" aria-label="Посмотреть до">‹</button><button class="slider-btn next" aria-label="Посмотреть после">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina1.webp" alt="До - Кухня" /><span class="slide-label">ДО</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina2.webp" alt="После - Кухня" /><span class="slide-label">ПОСЛЕ</span></div></div><button class="slider-btn prev" aria-label="Посмотреть до">‹</button><button class="slider-btn next" aria-label="Посмотреть после">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura1.webp" alt="До - Покраска" /><span class="slide-label">ДО</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura2.webp" alt="После - Покраска" /><span class="slide-label">ПОСЛЕ</span></div></div><button class="slider-btn prev" aria-label="Посмотреть до">‹</button><button class="slider-btn next" aria-label="Посмотреть после">›</button></div>
       </div>
     </div>
   </section>

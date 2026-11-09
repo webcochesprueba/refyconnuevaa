@@ -39,10 +39,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" type="image/webp" href="/logo.png.webp">
-  <link rel="preload" href="/cocina2.webp" as="image" type="image/webp">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" href="/hero-cocinas.webp" as="image" type="image/webp" media="(min-width: 769px)">
+  <link rel="preload" href="/hero-cocinas-m.webp" as="image" type="image/webp" media="(max-width: 768px)">
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/subpages.css">
 
@@ -136,6 +135,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     ]
   }
   </script>
+  <style id="hero-bg-mobile">@media (max-width: 768px){.page-hero .hero-bg{background-image:url('/hero-cocinas-m.webp')!important}}</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -146,7 +146,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav id="navbar">
     <div class="nav-inner">
       <a href="/" class="nav-logo">
-        <img src="/logoheader.webp" alt="Refycon PRO" class="nav-logo-img" />
+        <img src="/logoheader.webp" width="682" height="167" alt="Refycon PRO" class="nav-logo-img" />
       </a>
 
       <ul class="nav-links">
@@ -205,7 +205,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <main>
     <!-- ===== HERO ===== -->
     <section class="page-hero" id="top">
-      <div class="hero-bg" style="background-image: url('/cocina2.webp');"></div>
+      <div class="hero-bg" style="background-image: url('/hero-cocinas.webp');"></div>
       <div class="hero-content">
 
         <div class="hero-text">
@@ -314,7 +314,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="sp-cards">
           <div class="sp-card">
-            <img src="/cocina2.webp" alt="Cocina reformada con muebles a medida" class="sp-card-img" loading="lazy">
+            <img decoding="async" src="/cocina2.webp" alt="Cocina reformada con muebles a medida" class="sp-card-img" loading="lazy">
             <div class="sp-card-body">
               <h3>Reforma completa de cocina</h3>
               <p>Desmontaje, instalaciones, paredes, suelo, muebles, encimera y electrodomésticos integrados.</p>
@@ -404,8 +404,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="projects-grid">
           <div class="project-slider">
             <div class="project-slides">
-              <div class="project-slide"><img src="/bano1.webp" alt="Antes - Reforma de baño" loading="lazy" /><span class="slide-label">ANTES</span></div>
-              <div class="project-slide"><img src="/bano2.webp" alt="Después - Reforma de baño" loading="lazy" /><span class="slide-label">DESPUÉS</span></div>
+              <div class="project-slide"><img decoding="async" src="/bano1.webp" alt="Antes - Reforma de baño" loading="lazy" /><span class="slide-label">ANTES</span></div>
+              <div class="project-slide"><img decoding="async" src="/bano2.webp" alt="Después - Reforma de baño" loading="lazy" /><span class="slide-label">DESPUÉS</span></div>
             </div>
             <button class="slider-btn prev" aria-label="Ver antes">‹</button>
             <button class="slider-btn next" aria-label="Ver después">›</button>
@@ -413,8 +413,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <div class="project-slider">
             <div class="project-slides">
-              <div class="project-slide"><img src="/cocina1.webp" alt="Antes - Reforma de cocina" loading="lazy" /><span class="slide-label">ANTES</span></div>
-              <div class="project-slide"><img src="/cocina2.webp" alt="Después - Reforma de cocina" loading="lazy" /><span class="slide-label">DESPUÉS</span></div>
+              <div class="project-slide"><img decoding="async" src="/cocina1.webp" alt="Antes - Reforma de cocina" loading="lazy" /><span class="slide-label">ANTES</span></div>
+              <div class="project-slide"><img decoding="async" src="/cocina2.webp" alt="Después - Reforma de cocina" loading="lazy" /><span class="slide-label">DESPUÉS</span></div>
             </div>
             <button class="slider-btn prev" aria-label="Ver antes">‹</button>
             <button class="slider-btn next" aria-label="Ver después">›</button>
@@ -422,8 +422,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <div class="project-slider">
             <div class="project-slides">
-              <div class="project-slide"><img src="/pintura1.webp" alt="Antes - Pintura de fachada" loading="lazy" /><span class="slide-label">ANTES</span></div>
-              <div class="project-slide"><img src="/pintura2.webp" alt="Después - Pintura de fachada" loading="lazy" /><span class="slide-label">DESPUÉS</span></div>
+              <div class="project-slide"><img decoding="async" src="/pintura1.webp" alt="Antes - Pintura de fachada" loading="lazy" /><span class="slide-label">ANTES</span></div>
+              <div class="project-slide"><img decoding="async" src="/pintura2.webp" alt="Después - Pintura de fachada" loading="lazy" /><span class="slide-label">DESPUÉS</span></div>
             </div>
             <button class="slider-btn prev" aria-label="Ver antes">‹</button>
             <button class="slider-btn next" aria-label="Ver después">›</button>

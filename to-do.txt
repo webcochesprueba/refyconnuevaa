@@ -23,6 +23,51 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-09 (tarde) - Velocidad, título de portada y precio Benahavís (Claude)
+
+Pedido por ti: "a veces con Ctrl+F5 tarda en cargar". Ctrl+F5 ignora la
+caché y descarga todo, así que se ha reducido lo que se descarga.
+
+Medición (móvil, sin caché):          ANTES        DESPUÉS
+  Portada                              1.555 KB     441 KB
+  Marbella                             1.199 KB     ~550 KB
+  Recursos externos en portada         4            2 (solo Google Analytics/GTM)
+
+[x] Fuente Inter alojada en la web (/fonts/, variable, latin + latin-ext +
+    cirílico) en vez de Google Fonts: 2 conexiones externas menos que
+    bloqueaban el pintado. Preload de inter-latin.woff2 en todas las páginas.
+    privacidad.html y 404.html pasan de Poppins (Google Fonts) a Inter.
+    Ya no se usa Google Fonts en ninguna página (quitado de cookies.html).
+[x] Quitado el widget de WhatsApp de Elfsight de la portada (elfsightcdn.com):
+    script externo pesado, duplicaba el botón de WhatsApp propio y podía
+    poner cookies sin consentimiento. El botón propio sigue igual.
+[x] Portadas (7 idiomas): fotos de servicios en WebP de 800 px
+    (*-sm.webp, 4-43 KB) con carga diferida; antes/después reducidos a
+    960 px (25-60 KB); logo con width/height (evita saltos).
+[x] Fondo de portada en móvil: banner2-m.webp (37 KB) con preload por
+    tamaño de pantalla.
+[x] Subpáginas: foto de portada en móvil de 800 px (*-m.webp, 15-71 KB)
+    con preload por tamaño; tarjetas con versiones pequeñas
+    (proyectopiscina-sm, villa-marbella-obra-sm, proyectovilla-sm,
+    reformaintegral-sm); hero propio para baños y cocinas
+    (hero-banos.webp, hero-cocinas.webp); decoding="async" en imágenes.
+[x] vercel.json: caché de 1 año para /fonts/. (No se ha puesto caché larga
+    a imágenes/CSS/JS porque no llevan versión en el nombre.)
+[x] H1 de la portada: "Reformas Integrales y Construcción en Marbella y la
+    Costa del Sol". Texto del hero y meta description sin "diseño".
+[x] Benahavís, FAQ de precio (visible y schema): referencia de mercado
+    2026 = 900-1.500 €/m² reforma integral de villa con nueva distribución,
+    1.500-2.500 €/m² o más de lujo. Fuente: klicarquitectos.com (ago. 2026).
+    Otras fuentes consultadas dan cifras más altas para gama alta:
+    musemarbella.es (integral 1.800-3.200 €/m²), lobo-interiors.com
+    (2.000-3.500 €/m² gama alta en Marbella/Benahavís).
+[ ] (Tú) Marbella sigue diciendo 800-1.500 €/m² para villas (texto
+    original). ¿Se iguala a la referencia de Benahavís?
+[ ] GTM y gtag.js se cargan los dos: si el contenedor GTM-NH32BX8J ya
+    lleva la etiqueta de GA4, se cuentan visitas dobles. Revisar en
+    tagmanager.google.com y quitar uno de los dos.
+[ ] Si se crea otra zona con el generador, crear antes su foto -m.webp.
+
 ## 2026-11-09 - San Pedro, Benahavís, cookies y limpieza (Claude)
 
 Mientras tanto (Tú): alta en Habitissimo, Cronoshare y Páginas Amarillas.
@@ -73,10 +118,7 @@ Ficha de Google hecha e indexación pedida en Search Console.
     schema válido, sin scroll horizontal en móvil.
 [ ] index2.html carga style.css, que no existe. Es la copia antigua en
     noindex: se puede borrar si no se usa para nada (decidir).
-[ ] (Tú/Claude) Propuesta: el H1 de la portada dice "Reformas & Construcción
-    de calidad en la Costa del Sol" y el texto habla de "diseño". Para SEO
-    sería mejor "Reformas integrales y construcción en Marbella y la Costa
-    del Sol" y quitar "diseño" mientras no se ofrezca. Pendiente de tu OK.
+[x] H1 de la portada cambiado (2026-11-09, con tu OK). Ver registro.
 [ ] La portada no tiene menú "Zonas" (las subpáginas sí). Añadirlo.
 
 ## 2026-11-05 - Quitado Steel Frame (Claude)

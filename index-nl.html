@@ -56,10 +56,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="logo.png.webp">
   <link rel="manifest" href="/site.webmanifest">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="preload" href="banner2.webp" as="image" type="image/webp" />
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="banner2.webp" as="image" type="image/webp" media="(min-width: 769px)" />
+  <link rel="preload" href="banner2-m.webp" as="image" type="image/webp" media="(max-width: 768px)" />
   <link rel="stylesheet" href="styles.css" />
   
   <style>
@@ -97,7 +96,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="index-nl.html" class="nav-logo">
-        <img src="logoheader.webp" alt="REFYCON" class="nav-logo-img" />
+        <img src="logoheader.webp" width="682" height="167" alt="REFYCON" class="nav-logo-img" />
       </a>
       <ul class="nav-links">
         <li><a href="#hero">Home</a></li>
@@ -212,12 +211,12 @@
     <div class="container">
       <div class="section-header fade-in"><h2>Onze Diensten</h2><div class="section-line"></div></div>
       <div class="services-grid">
-        <div class="service-card fade-in"><img src="reformainterior.jpeg" alt="Complete Renovaties" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏠</span><h3>Complete<br>Renovaties</h3></div><p>Wij transformeren uw huis met moderne en functionele ontwerpen.</p></div>
-        <div class="service-card fade-in"><img src="construccion.jpg" alt="Bouw" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏗</span><h3>Bouw</h3></div><p>Nieuwbouw, eengezinswoningen en maatwerkprojecten.</p></div>
-        <div class="service-card fade-in"><img src="bano.webp" alt="Badkamers en Keukens" class="service-img" /><div class="service-icon-row"><span class="service-icon">🛁</span><h3>Badkamers &<br>Keukens</h3></div><p>Vernieuw uw ruimtes met kwaliteit en stijl.</p></div>
-        <div class="service-card fade-in"><img src="villa.jpg" alt="Villabouw" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏡</span><h3>Villabouw</h3></div><p>Luxe villa's op maat in de beste gebieden van de Costa del Sol.</p></div>
-        <div class="service-card fade-in"><img src="pintura.jpg" alt="Schilderwerk en Afwerking" class="service-img" /><div class="service-icon-row"><span class="service-icon">🎨</span><h3>Schilderwerk &<br>Afwerking</h3></div><p>Wij transformeren uw ruimte met hoogwaardige afwerking en uniek ontwerp.</p></div>
-        <div class="service-card fade-in"><img src="hormigon.jpg" alt="Gepolijst Beton" class="service-img" /><div class="service-icon-row"><span class="service-icon">✨</span><h3>Gepolijst<br>Beton</h3></div><p>Moderne, duurzame en langdurige afwerkingen.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="reformainterior-sm.webp" alt="Complete Renovaties" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏠</span><h3>Complete<br>Renovaties</h3></div><p>Wij transformeren uw huis met moderne en functionele ontwerpen.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="construccion-sm.webp" alt="Bouw" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏗</span><h3>Bouw</h3></div><p>Nieuwbouw, eengezinswoningen en maatwerkprojecten.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="bano.webp" alt="Badkamers en Keukens" class="service-img" /><div class="service-icon-row"><span class="service-icon">🛁</span><h3>Badkamers &<br>Keukens</h3></div><p>Vernieuw uw ruimtes met kwaliteit en stijl.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="villa-sm.webp" alt="Villabouw" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏡</span><h3>Villabouw</h3></div><p>Luxe villa's op maat in de beste gebieden van de Costa del Sol.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="pintura-sm.webp" alt="Schilderwerk en Afwerking" class="service-img" /><div class="service-icon-row"><span class="service-icon">🎨</span><h3>Schilderwerk &<br>Afwerking</h3></div><p>Wij transformeren uw ruimte met hoogwaardige afwerking en uniek ontwerp.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="hormigon-sm.webp" alt="Gepolijst Beton" class="service-img" /><div class="service-icon-row"><span class="service-icon">✨</span><h3>Gepolijst<br>Beton</h3></div><p>Moderne, duurzame en langdurige afwerkingen.</p></div>
       </div>
       <p style="font-size: 0.75rem; color: #999; text-align: center; margin-top: 1.5rem; letter-spacing: 0.3px;">* Stockfoto's gebruikt voor demonstratiedoeleinden.</p>
     </div>
@@ -227,9 +226,9 @@
     <div class="container">
       <div class="section-header fade-in"><h2>Onze Projecten</h2><div class="section-line"></div></div>
       <div class="projects-grid">
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="bano1.webp" alt="Voor - Badkamer" /><span class="slide-label">VOOR</span></div><div class="project-slide"><img src="bano2.webp" alt="Na - Badkamer" /><span class="slide-label">NA</span></div></div><button class="slider-btn prev" aria-label="Bekijk voor">‹</button><button class="slider-btn next" aria-label="Bekijk na">›</button></div>
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="cocina1.webp" alt="Voor - Keuken" /><span class="slide-label">VOOR</span></div><div class="project-slide"><img src="cocina2.webp" alt="Na - Keuken" /><span class="slide-label">NA</span></div></div><button class="slider-btn prev" aria-label="Bekijk voor">‹</button><button class="slider-btn next" aria-label="Bekijk na">›</button></div>
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="pintura1.webp" alt="Voor - Schilderwerk" /><span class="slide-label">VOOR</span></div><div class="project-slide"><img src="pintura2.webp" alt="Na - Schilderwerk" /><span class="slide-label">NA</span></div></div><button class="slider-btn prev" aria-label="Bekijk voor">‹</button><button class="slider-btn next" aria-label="Bekijk na">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano1.webp" alt="Voor - Badkamer" /><span class="slide-label">VOOR</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano2.webp" alt="Na - Badkamer" /><span class="slide-label">NA</span></div></div><button class="slider-btn prev" aria-label="Bekijk voor">‹</button><button class="slider-btn next" aria-label="Bekijk na">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina1.webp" alt="Voor - Keuken" /><span class="slide-label">VOOR</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina2.webp" alt="Na - Keuken" /><span class="slide-label">NA</span></div></div><button class="slider-btn prev" aria-label="Bekijk voor">‹</button><button class="slider-btn next" aria-label="Bekijk na">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura1.webp" alt="Voor - Schilderwerk" /><span class="slide-label">VOOR</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura2.webp" alt="Na - Schilderwerk" /><span class="slide-label">NA</span></div></div><button class="slider-btn prev" aria-label="Bekijk voor">‹</button><button class="slider-btn next" aria-label="Bekijk na">›</button></div>
       </div>
     </div>
   </section>

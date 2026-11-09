@@ -71,10 +71,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="logo.png.webp">
   <link rel="manifest" href="/site.webmanifest">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="preload" href="banner2.webp" as="image" type="image/webp" />
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="banner2.webp" as="image" type="image/webp" media="(min-width: 769px)" />
+  <link rel="preload" href="banner2-m.webp" as="image" type="image/webp" media="(max-width: 768px)" />
   <link rel="stylesheet" href="styles.css" />
   
   <style>
@@ -186,7 +185,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="index-fr.html" class="nav-logo">
-        <img src="logoheader.webp" alt="REFYCON" class="nav-logo-img" />
+        <img src="logoheader.webp" width="682" height="167" alt="REFYCON" class="nav-logo-img" />
       </a>
       <ul class="nav-links">
         <li><a href="#hero">Accueil</a></li>
@@ -323,32 +322,32 @@
       <div class="section-header fade-in"><h2>Nos Services</h2><div class="section-line"></div></div>
       <div class="services-grid">
         <div class="service-card fade-in">
-          <img src="reformainterior.jpeg" alt="Rénovations Complètes" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="reformainterior-sm.webp" alt="Rénovations Complètes" class="service-img" />
           <div class="service-icon-row"><span class="service-icon">🏠</span><h3>Rénovations<br>Complètes</h3></div>
           <p>Nous transformons votre maison avec des designs modernes et fonctionnels.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="construccion.jpg" alt="Construction" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="construccion-sm.webp" alt="Construction" class="service-img" />
           <div class="service-icon-row"><span class="service-icon">🏗</span><h3>Construction</h3></div>
           <p>Constructions neuves, maisons individuelles et projets sur mesure.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="bano.webp" alt="Salles de Bains et Cuisines" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="bano.webp" alt="Salles de Bains et Cuisines" class="service-img" />
           <div class="service-icon-row"><span class="service-icon">🛁</span><h3>Salles de Bains<br>& Cuisines</h3></div>
           <p>Rénovez vos espaces avec qualité et style.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="villa.jpg" alt="Construction de Villas" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="villa-sm.webp" alt="Construction de Villas" class="service-img" />
           <div class="service-icon-row"><span class="service-icon">🏡</span><h3>Construction<br>de Villas</h3></div>
           <p>Villas de luxe sur mesure dans les meilleurs secteurs de la Costa del Sol.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="pintura.jpg" alt="Peinture et Finitions" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="pintura-sm.webp" alt="Peinture et Finitions" class="service-img" />
           <div class="service-icon-row"><span class="service-icon">🎨</span><h3>Peinture &<br>Finitions</h3></div>
           <p>Nous transformons votre espace avec des finitions de haute qualité et un design unique.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="hormigon.jpg" alt="Béton Poli" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="hormigon-sm.webp" alt="Béton Poli" class="service-img" />
           <div class="service-icon-row"><span class="service-icon">✨</span><h3>Béton<br>Poli</h3></div>
           <p>Finitures modernes, résistantes et durables.</p>
         </div>
@@ -363,24 +362,24 @@
       <div class="projects-grid">
         <div class="project-slider fade-in">
           <div class="project-slides">
-            <div class="project-slide"><img src="bano1.webp" alt="Avant - Salle de Bains" /><span class="slide-label">AVANT</span></div>
-            <div class="project-slide"><img src="bano2.webp" alt="Après - Salle de Bains" /><span class="slide-label">APRÈS</span></div>
+            <div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano1.webp" alt="Avant - Salle de Bains" /><span class="slide-label">AVANT</span></div>
+            <div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano2.webp" alt="Après - Salle de Bains" /><span class="slide-label">APRÈS</span></div>
           </div>
           <button class="slider-btn prev" aria-label="Voir avant">‹</button>
           <button class="slider-btn next" aria-label="Voir après">›</button>
         </div>
         <div class="project-slider fade-in">
           <div class="project-slides">
-            <div class="project-slide"><img src="cocina1.webp" alt="Avant - Cuisine" /><span class="slide-label">AVANT</span></div>
-            <div class="project-slide"><img src="cocina2.webp" alt="Après - Cuisine" /><span class="slide-label">APRÈS</span></div>
+            <div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina1.webp" alt="Avant - Cuisine" /><span class="slide-label">AVANT</span></div>
+            <div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina2.webp" alt="Après - Cuisine" /><span class="slide-label">APRÈS</span></div>
           </div>
           <button class="slider-btn prev" aria-label="Voir avant">‹</button>
           <button class="slider-btn next" aria-label="Voir après">›</button>
         </div>
         <div class="project-slider fade-in">
           <div class="project-slides">
-            <div class="project-slide"><img src="pintura1.webp" alt="Avant - Peinture" /><span class="slide-label">AVANT</span></div>
-            <div class="project-slide"><img src="pintura2.webp" alt="Après - Peinture" /><span class="slide-label">APRÈS</span></div>
+            <div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura1.webp" alt="Avant - Peinture" /><span class="slide-label">AVANT</span></div>
+            <div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura2.webp" alt="Après - Peinture" /><span class="slide-label">APRÈS</span></div>
           </div>
           <button class="slider-btn prev" aria-label="Voir avant">‹</button>
           <button class="slider-btn next" aria-label="Voir après">›</button>

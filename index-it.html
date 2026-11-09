@@ -55,10 +55,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="logo.png.webp">
   <link rel="manifest" href="/site.webmanifest">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="preload" href="banner2.webp" as="image" type="image/webp" />
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="banner2.webp" as="image" type="image/webp" media="(min-width: 769px)" />
+  <link rel="preload" href="banner2-m.webp" as="image" type="image/webp" media="(max-width: 768px)" />
   <link rel="stylesheet" href="styles.css" />
   
   <style>
@@ -96,7 +95,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="index-it.html" class="nav-logo">
-        <img src="logoheader.webp" alt="REFYCON" class="nav-logo-img" />
+        <img src="logoheader.webp" width="682" height="167" alt="REFYCON" class="nav-logo-img" />
       </a>
       <ul class="nav-links">
         <li><a href="#hero">Home</a></li>
@@ -211,12 +210,12 @@
     <div class="container">
       <div class="section-header fade-in"><h2>I Nostri Servizi</h2><div class="section-line"></div></div>
       <div class="services-grid">
-        <div class="service-card fade-in"><img src="reformainterior.jpeg" alt="Ristrutturazioni Complete" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏠</span><h3>Ristrutturazioni<br>Complete</h3></div><p>Trasformiamo la tua casa con design moderni e funzionali.</p></div>
-        <div class="service-card fade-in"><img src="construccion.jpg" alt="Costruzione" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏗</span><h3>Costruzione</h3></div><p>Nuove costruzioni, case unifamiliari e progetti su misura.</p></div>
-        <div class="service-card fade-in"><img src="bano.webp" alt="Bagni e Cucine" class="service-img" /><div class="service-icon-row"><span class="service-icon">🛁</span><h3>Bagni &<br>Cucine</h3></div><p>Rinnova i tuoi spazi con qualità e stile.</p></div>
-        <div class="service-card fade-in"><img src="villa.jpg" alt="Costruzione Ville" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏡</span><h3>Costruzione<br>Ville</h3></div><p>Ville di lusso su misura nelle migliori zone della Costa del Sol.</p></div>
-        <div class="service-card fade-in"><img src="pintura.jpg" alt="Pittura e Finiture" class="service-img" /><div class="service-icon-row"><span class="service-icon">🎨</span><h3>Pittura &<br>Finiture</h3></div><p>Trasformiamo il tuo spazio con finiture di alta qualità e design unico.</p></div>
-        <div class="service-card fade-in"><img src="hormigon.jpg" alt="Calcestruzzo Lucidato" class="service-img" /><div class="service-icon-row"><span class="service-icon">✨</span><h3>Calcestruzzo<br>Lucidato</h3></div><p>Finiture moderne, resistenti e durevoli.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="reformainterior-sm.webp" alt="Ristrutturazioni Complete" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏠</span><h3>Ristrutturazioni<br>Complete</h3></div><p>Trasformiamo la tua casa con design moderni e funzionali.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="construccion-sm.webp" alt="Costruzione" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏗</span><h3>Costruzione</h3></div><p>Nuove costruzioni, case unifamiliari e progetti su misura.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="bano.webp" alt="Bagni e Cucine" class="service-img" /><div class="service-icon-row"><span class="service-icon">🛁</span><h3>Bagni &<br>Cucine</h3></div><p>Rinnova i tuoi spazi con qualità e stile.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="villa-sm.webp" alt="Costruzione Ville" class="service-img" /><div class="service-icon-row"><span class="service-icon">🏡</span><h3>Costruzione<br>Ville</h3></div><p>Ville di lusso su misura nelle migliori zone della Costa del Sol.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="pintura-sm.webp" alt="Pittura e Finiture" class="service-img" /><div class="service-icon-row"><span class="service-icon">🎨</span><h3>Pittura &<br>Finiture</h3></div><p>Trasformiamo il tuo spazio con finiture di alta qualità e design unico.</p></div>
+        <div class="service-card fade-in"><img loading="lazy" decoding="async" width="800" height="600" src="hormigon-sm.webp" alt="Calcestruzzo Lucidato" class="service-img" /><div class="service-icon-row"><span class="service-icon">✨</span><h3>Calcestruzzo<br>Lucidato</h3></div><p>Finiture moderne, resistenti e durevoli.</p></div>
       </div>
       <p style="font-size: 0.75rem; color: #999; text-align: center; margin-top: 1.5rem; letter-spacing: 0.3px;">* Immagini stock utilizzate a scopo dimostrativo.</p>
     </div>
@@ -226,9 +225,9 @@
     <div class="container">
       <div class="section-header fade-in"><h2>I Nostri Progetti</h2><div class="section-line"></div></div>
       <div class="projects-grid">
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="bano1.webp" alt="Prima - Bagno" /><span class="slide-label">PRIMA</span></div><div class="project-slide"><img src="bano2.webp" alt="Dopo - Bagno" /><span class="slide-label">DOPO</span></div></div><button class="slider-btn prev" aria-label="Vedi prima">‹</button><button class="slider-btn next" aria-label="Vedi dopo">›</button></div>
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="cocina1.webp" alt="Prima - Cucina" /><span class="slide-label">PRIMA</span></div><div class="project-slide"><img src="cocina2.webp" alt="Dopo - Cucina" /><span class="slide-label">DOPO</span></div></div><button class="slider-btn prev" aria-label="Vedi prima">‹</button><button class="slider-btn next" aria-label="Vedi dopo">›</button></div>
-        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img src="pintura1.webp" alt="Prima - Pittura" /><span class="slide-label">PRIMA</span></div><div class="project-slide"><img src="pintura2.webp" alt="Dopo - Pittura" /><span class="slide-label">DOPO</span></div></div><button class="slider-btn prev" aria-label="Vedi prima">‹</button><button class="slider-btn next" aria-label="Vedi dopo">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano1.webp" alt="Prima - Bagno" /><span class="slide-label">PRIMA</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="bano2.webp" alt="Dopo - Bagno" /><span class="slide-label">DOPO</span></div></div><button class="slider-btn prev" aria-label="Vedi prima">‹</button><button class="slider-btn next" aria-label="Vedi dopo">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina1.webp" alt="Prima - Cucina" /><span class="slide-label">PRIMA</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="cocina2.webp" alt="Dopo - Cucina" /><span class="slide-label">DOPO</span></div></div><button class="slider-btn prev" aria-label="Vedi prima">‹</button><button class="slider-btn next" aria-label="Vedi dopo">›</button></div>
+        <div class="project-slider fade-in"><div class="project-slides"><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura1.webp" alt="Prima - Pittura" /><span class="slide-label">PRIMA</span></div><div class="project-slide"><img loading="lazy" decoding="async" width="800" height="600" src="pintura2.webp" alt="Dopo - Pittura" /><span class="slide-label">DOPO</span></div></div><button class="slider-btn prev" aria-label="Vedi prima">‹</button><button class="slider-btn next" aria-label="Vedi dopo">›</button></div>
       </div>
     </div>
   </section>

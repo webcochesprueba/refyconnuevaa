@@ -71,10 +71,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="logo.png.webp">
   <link rel="manifest" href="/site.webmanifest">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="preload" href="banner2.webp" as="image" type="image/webp" />
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="banner2.webp" as="image" type="image/webp" media="(min-width: 769px)" />
+  <link rel="preload" href="banner2-m.webp" as="image" type="image/webp" media="(max-width: 768px)" />
   <link rel="stylesheet" href="styles.css" />
   
   <style>
@@ -187,7 +186,7 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="index-en.html" class="nav-logo">
-        <img src="logoheader.webp" alt="REFYCON" class="nav-logo-img" />
+        <img src="logoheader.webp" width="682" height="167" alt="REFYCON" class="nav-logo-img" />
       </a>
 
       <ul class="nav-links">
@@ -364,7 +363,7 @@
 
       <div class="services-grid">
         <div class="service-card fade-in">
-          <img src="reformainterior.jpeg" alt="Comprehensive Renovations" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="reformainterior-sm.webp" alt="Comprehensive Renovations" class="service-img" />
           <div class="service-icon-row">
             <span class="service-icon">🏠</span>
             <h3>Comprehensive<br>Renovations</h3>
@@ -372,7 +371,7 @@
           <p>We transform your home with modern and functional designs.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="construccion.jpg" alt="Construction" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="construccion-sm.webp" alt="Construction" class="service-img" />
           <div class="service-icon-row">
             <span class="service-icon">🏗</span>
             <h3>Construction</h3>
@@ -380,7 +379,7 @@
           <p>New builds, single-family homes and custom projects.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="bano.webp" alt="Bathroom and Kitchen Renovations" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="bano.webp" alt="Bathroom and Kitchen Renovations" class="service-img" />
           <div class="service-icon-row">
             <span class="service-icon">🛁</span>
             <h3>Bathroom &<br>Kitchen Renovations</h3>
@@ -388,7 +387,7 @@
           <p>Renovate your spaces with quality and style.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="villa.jpg" alt="Villa Construction" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="villa-sm.webp" alt="Villa Construction" class="service-img" />
           <div class="service-icon-row">
             <span class="service-icon">🏡</span>
             <h3>Villa<br>Construction</h3>
@@ -396,7 +395,7 @@
           <p>Custom luxury villas in the best areas of the Costa del Sol.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="pintura.jpg" alt="Painting and Finishes" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="pintura-sm.webp" alt="Painting and Finishes" class="service-img" />
           <div class="service-icon-row">
             <span class="service-icon">🎨</span>
             <h3>Painting &<br>Finishes</h3>
@@ -404,7 +403,7 @@
           <p>We transform your space with high-quality finishes and unique design.</p>
         </div>
         <div class="service-card fade-in">
-          <img src="hormigon.jpg" alt="Polished Concrete" class="service-img" />
+          <img loading="lazy" decoding="async" width="800" height="600" src="hormigon-sm.webp" alt="Polished Concrete" class="service-img" />
           <div class="service-icon-row">
             <span class="service-icon">✨</span>
             <h3>Polished<br>Concrete</h3>
@@ -428,11 +427,11 @@
         <div class="project-slider fade-in">
           <div class="project-slides">
             <div class="project-slide">
-              <img src="bano1.webp" alt="Before - Bathroom" />
+              <img loading="lazy" decoding="async" width="800" height="600" src="bano1.webp" alt="Before - Bathroom" />
               <span class="slide-label">BEFORE</span>
             </div>
             <div class="project-slide">
-              <img src="bano2.webp" alt="After - Bathroom" />
+              <img loading="lazy" decoding="async" width="800" height="600" src="bano2.webp" alt="After - Bathroom" />
               <span class="slide-label">AFTER</span>
             </div>
           </div>
@@ -442,11 +441,11 @@
         <div class="project-slider fade-in">
           <div class="project-slides">
             <div class="project-slide">
-              <img src="cocina1.webp" alt="Before - Kitchen" />
+              <img loading="lazy" decoding="async" width="800" height="600" src="cocina1.webp" alt="Before - Kitchen" />
               <span class="slide-label">BEFORE</span>
             </div>
             <div class="project-slide">
-              <img src="cocina2.webp" alt="After - Kitchen" />
+              <img loading="lazy" decoding="async" width="800" height="600" src="cocina2.webp" alt="After - Kitchen" />
               <span class="slide-label">AFTER</span>
             </div>
           </div>
@@ -456,11 +455,11 @@
         <div class="project-slider fade-in">
           <div class="project-slides">
             <div class="project-slide">
-              <img src="pintura1.webp" alt="Before - Painting" />
+              <img loading="lazy" decoding="async" width="800" height="600" src="pintura1.webp" alt="Before - Painting" />
               <span class="slide-label">BEFORE</span>
             </div>
             <div class="project-slide">
-              <img src="pintura2.webp" alt="After - Painting" />
+              <img loading="lazy" decoding="async" width="800" height="600" src="pintura2.webp" alt="After - Painting" />
               <span class="slide-label">AFTER</span>
             </div>
           </div>
