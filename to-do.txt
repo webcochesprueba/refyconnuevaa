@@ -23,6 +23,24 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-11 - refycon.com sigue apareciendo (ChatGPT, buscadores)
+
+- Detectado por ti: ChatGPT recomienda Refycon (2º puesto) pero enlaza a
+  refycon.com. Causa: la web antigua declaraba refycon.com como dirección
+  oficial; Bing/Google aún tienen indexadas páginas de refycon.com
+  (index-en.html, zonas/estepona.html, servicios/steel-framing.html).
+- refycon.com muestra ahora una página por defecto de hosting
+  ("Site is created successfully!"): no redirige.
+[x] (Claude) vercel.json: redirección 301 de /servicios/steel-framing.html
+    -> /servicios/reformas.html (la página ya no existe).
+[ ] (Tú) Redirigir refycon.com y www.refycon.com -> https://www.refyconpro.com
+    (301, conservando la ruta). Opción recomendada: añadir refycon.com al
+    proyecto de Vercel como dominio que redirige a www.refyconpro.com y
+    cambiar el DNS de refycon.com a lo que indique Vercel.
+[ ] (Tú) Bing Webmaster Tools: dar de alta refyconpro.com (importar desde
+    Search Console), enviar sitemap.xml. ChatGPT usa sobre todo el índice de Bing.
+[ ] (Tú) Pedir a mejoresreformas.es que cambie el enlace a www.refyconpro.com.
+
 ## 2026-11-09 - Google Ads: web preparada (Claude)
 
 Decisión: el jefe prefiere usar Google Ads. El usuario irá preguntando paso a

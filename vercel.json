@@ -10,5 +10,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/servicios/steel-framing.html",
+      "destination": "/servicios/reformas.html",
+      "permanent": true
+    }
   ]
 }
