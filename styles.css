@@ -1120,3 +1120,9 @@ a.location-pin:hover { color: var(--blue-primary); border-bottom-color: var(--bl
 @media (max-width: 768px) {
   .hero-bg { background-image: url('banner2-m.webp'); }
 }
+
+/* Enlace para dejar reseña en Google (pie) */
+.footer-socials { flex-wrap: wrap; align-items: center; }
+.footer-review-link { flex-basis: 100%; margin-top: 12px; font-size: 13px; font-weight: 600; color: #60a5fa; text-decoration: none; }
+.footer-review-link:hover { text-decoration: underline; }
+.social-link svg { display: block; }

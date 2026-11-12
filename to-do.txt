@@ -35,8 +35,16 @@ REGISTRO DE CAMBIOS HECHOS
       foundingDate 1998; numberOfEmployees 15-50; atención en 7 idiomas;
       servicio "Arquitectura y Diseño"; dirección inventada "Costa del Sol 29000".
     - Quitado el bloque Organization duplicado.
-[ ] Cuando haya datos reales: añadir legalName (razón social) y sameAs con
-    la URL de la ficha de Google Business y de la página de Facebook.
+[x] sameAs + hasMap añadidos (2026-11-12) en las 7 portadas y las páginas de zona:
+      Google Business: https://share.google/tP7Zszb3pATw5f2xo
+      Facebook: https://www.facebook.com/profile.php?id=61596178183543
+    Pie de todas las páginas: iconos WhatsApp, Facebook, Google y enlace
+    "Valóranos en Google" (traducido) a la ficha.
+[ ] Si se consigue la URL larga de Google Maps de la ficha (con cid=), sustituir
+    el enlace corto share.google en sameAs/hasMap y en el pie.
+[ ] Cuando haya razón social: añadir legalName al schema.
+[ ] Si la página de Facebook consigue un nombre de usuario (facebook.com/refyconpro),
+    cambiar el enlace en todas las páginas.
 [x] index-en.html: H1 "Full Renovations & Construction in Marbella and the
     Costa del Sol"; sin "design" en el texto ni en la meta description.
 [x] index-fr.html e index-de.html: FAQ visible (antes solo en schema),
