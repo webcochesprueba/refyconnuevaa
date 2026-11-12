@@ -23,6 +23,31 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-12 - Blog: 2 primeros artículos (Claude)
+
+[x] /blog/ (portada del blog) y 2 artículos con fuentes, FAQ visible = schema,
+    schema BlogPosting + BreadcrumbList, caja de contacto y enlaces internos:
+    - blog/licencia-obra-reforma-marbella.html
+      ("¿Necesito licencia para reformar mi casa en Marbella? Guía 2026"):
+      exentas / declaración responsable / licencia según LISTA (Ley 7/2021,
+      Decreto 550/2022), empezar el día de la presentación (art. 289.3
+      RGLISTA), 6 meses/2 años, ICIO 4 % y tasa 0,719 % según guías locales
+      (comprobar en Ordenanzas fiscales 2026), comunidad de propietarios.
+      Fuente principal: Revista de Urbanismo (jul. 2025).
+    - blog/precio-reforma-integral-marbella-costa-del-sol.html
+      ("¿Cuánto cuesta una reforma integral...? Precios 2026"): Cronoshare
+      (piso 90 m² Málaga 16.000-18.000 €, baño 5.000-10.000 €, cocina
+      5.000-15.000 €), Klic (villas 900-1.500 y 1.500-2.500 €/m²), cifra propia
+      600-1.200 €/m², IVA 10 %/21 %, plazos, cómo comparar presupuestos.
+[x] Enlace "Blog" en menú y pie de la portada y en el pie de las subpáginas
+    en español. sitemap: 27 URLs.
+[ ] (Tú) Search Console y Bing: pedir indexación de /blog/ y los 2 artículos.
+[ ] (Tú) Compartir los artículos en la página de Facebook.
+[ ] Próximos artículos posibles: "Cambiar bañera por plato de ducha: precio y
+    plazos", "Reformar un piso antiguo en Málaga: qué revisar", "Reformar para
+    alquilar en Marbella", y versiones en inglés para clientes extranjeros.
+[ ] Si el texto de un artículo cambia, actualizar también dateModified.
+
 ## 2026-11-12 - Datos de empresa limpios y FAQ fr/de (Claude)
 
 [x] Schema de empresa de las 7 portadas reescrito (HomeAndConstructionBusiness,

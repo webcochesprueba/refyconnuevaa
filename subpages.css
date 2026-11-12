@@ -446,3 +446,22 @@ a.chip:hover { color: var(--blue-primary); border-color: var(--blue-primary); }
 .legal-table table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 560px; }
 .legal-table th { background: var(--light-blue-bg); color: var(--text-dark); text-align: left; padding: 10px 12px; font-weight: 700; }
 .legal-table td { padding: 10px 12px; border-top: 1px solid var(--border); vertical-align: top; }
+
+/* --- Blog --- */
+.legal-hero .hero-kicker { justify-content: center; }
+.post-meta { font-size: 13px; color: var(--text-light); margin-top: 0; }
+.post-lead { font-size: 17px; line-height: 1.75; color: var(--text-dark); background: var(--light-blue-bg); border-left: 4px solid var(--blue-cta); padding: 18px 20px; border-radius: 0 8px 8px 0; }
+.legal.post ol { margin-top: 12px; padding-left: 22px; }
+.legal.post ol li { padding-left: 4px; margin-top: 8px; }
+.legal.post ol li::before { content: none; }
+.post-cta { margin: 40px 0 8px; background: var(--dark-nav); color: var(--white); border-radius: 10px; padding: 26px 24px; }
+.post-cta h3 { font-size: 20px; font-weight: 800; color: var(--white); }
+.post-cta p { color: rgba(255,255,255,0.75); margin-top: 8px; }
+.post-cta .hero-actions { margin-top: 18px; }
+.post-cta a { text-decoration: none; }
+.faq-in-article { margin-top: 16px; }
+.faq-in-article details p { margin-top: 0; }
+.post-sources li { font-size: 14px; }
+.post-note { font-size: 13px; color: var(--text-light); font-style: italic; margin-top: 24px; }
+.legal .post-cta a.btn-solid, .legal .post-cta a.btn-ghost { color: var(--white); text-decoration: none; }
+.legal a.sp-card, .legal .sp-card-link { text-decoration: none; }
