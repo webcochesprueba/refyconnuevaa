@@ -23,6 +23,26 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Propiedad refyconpro.com verificada en Google Search Console.
 [x] Sitemap enviado e indexación solicitada (portada, marbella, reformas).
 
+## 2026-11-12 - Datos de empresa limpios y FAQ fr/de (Claude)
+
+[x] Schema de empresa de las 7 portadas reescrito (HomeAndConstructionBusiness,
+    @id https://www.refyconpro.com/#organization):
+    - name "Refycon PRO", alternateName ["Refycon", "REFYCON PRO"],
+      url https://www.refyconpro.com/, teléfono, email, Marbella, zonas.
+    - QUITADO por no verificado o falso: sameAs a facebook.com/refycon,
+      instagram.com/refycon, linkedin.com/company/refycon, youtube.com/@refycon
+      (no son vuestros); legalName "Refycon Construcciones y Reformas S.L.";
+      foundingDate 1998; numberOfEmployees 15-50; atención en 7 idiomas;
+      servicio "Arquitectura y Diseño"; dirección inventada "Costa del Sol 29000".
+    - Quitado el bloque Organization duplicado.
+[ ] Cuando haya datos reales: añadir legalName (razón social) y sameAs con
+    la URL de la ficha de Google Business y de la página de Facebook.
+[x] index-en.html: H1 "Full Renovations & Construction in Marbella and the
+    Costa del Sol"; sin "design" en el texto ni en la meta description.
+[x] index-fr.html e index-de.html: FAQ visible (antes solo en schema),
+    sin "design architectural / Innenarchitektur", marca Refycon PRO;
+    meta description sin "design".
+
 ## 2026-11-11 - refycon.com sigue apareciendo (ChatGPT, buscadores)
 
 - Detectado por ti: ChatGPT recomienda Refycon (2º puesto) pero enlaza a
@@ -33,10 +53,11 @@ REGISTRO DE CAMBIOS HECHOS
   ("Site is created successfully!"): no redirige.
 [x] (Claude) vercel.json: redirección 301 de /servicios/steel-framing.html
     -> /servicios/reformas.html (la página ya no existe).
-[ ] (Tú) Redirigir refycon.com y www.refycon.com -> https://www.refyconpro.com
-    (301, conservando la ruta). Opción recomendada: añadir refycon.com al
-    proyecto de Vercel como dominio que redirige a www.refyconpro.com y
-    cambiar el DNS de refycon.com a lo que indique Vercel.
+[x] Redirigir refycon.com: NO es posible, el dominio ya no es vuestro (2026-11-12).
+[ ] (Tú) Google Search Console -> herramienta "Retirar contenido obsoleto"
+    (search.google.com/search-console/remove-outdated-content) con las URLs
+    viejas de refycon.com que salgan en Google (su contenido ya no existe).
+    En Bing Webmaster Tools existe la herramienta equivalente.
 [ ] (Tú) Bing Webmaster Tools: dar de alta refyconpro.com (importar desde
     Search Console), enviar sitemap.xml. ChatGPT usa sobre todo el índice de Bing.
 [ ] (Tú) Pedir a mejoresreformas.es que cambie el enlace a www.refyconpro.com.
