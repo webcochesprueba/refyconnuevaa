@@ -18,6 +18,17 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-14 (noche, 2) - SEO: enlaces a la obra y versión en inglés (Claude)
+[x] Enlaces internos a la obra del restaurante desde servicios/reformas.html (tarjeta en
+    "Antes y después" + enlace en la tarjeta Locales comerciales) y desde el artículo de precios.
+[x] Nueva página en inglés /en/restaurant-renovation-marbella.html (hreflang es/en en las dos
+    páginas y en el sitemap: 29 URLs). Enlace "English" de la página española apunta a ella.
+[x] Tarjeta de la obra en inglés en index-en.html, en/renovations-marbella.html y en/full-renovations.html.
+[x] ARREGLADO: el enlace "Español" del menú de las 5 páginas inglesas apuntaba a la propia
+    página inglesa. Ahora lleva a su versión española.
+[x] Corregida errata en el texto de ayuda del formulario de la página de la obra.
+[ ] (Tú) Search Console: pedir indexación también de /en/restaurant-renovation-marbella.html.
+
 ## 2026-11-14 (noche) - Restaurante en Marbella centro (Claude)
 [x] Datos confirmados por ti: Marbella centro, primera línea de playa, nombre
     nombre del restaurante NO se publica, y lista de trabajos correcta.
