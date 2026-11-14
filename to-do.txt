@@ -18,9 +18,9 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
-## 2026-11-14 (noche) - Restaurante: El Barril del Gusto, Marbella centro (Claude)
+## 2026-11-14 (noche) - Restaurante en Marbella centro (Claude)
 [x] Datos confirmados por ti: Marbella centro, primera línea de playa, nombre
-    "El Barril del Gusto" (se puede nombrar) y lista de trabajos correcta.
+    nombre del restaurante NO se publica, y lista de trabajos correcta.
 [x] Página renombrada a /proyectos/reforma-restaurante-marbella.html con nombre y zona
     en título, portada y textos. Redirección 301 desde la dirección antigua (vercel.json).
 [x] Tarjeta de la obra también en zonas/marbella.html (sección Antes y después).
@@ -37,7 +37,7 @@ REGISTRO DE CAMBIOS HECHOS
     pies de foto y bloque "También reformamos locales y negocios".
 [x] Tarjeta destacada "Obra reciente · Hostelería" en la portada, bajo Nuestros Proyectos.
 [x] Añadida al sitemap con 3 imágenes (28 URLs). Estilos de galería en subpages.css.
-[x] (Tú) Confirmado: Marbella centro, El Barril del Gusto, lista de trabajos OK.
+[x] (Tú) Confirmado: Marbella centro, sin nombre, lista de trabajos OK.
 [ ] (Tú) Subir las 7 fotos a la ficha de Google Business (Fotos > Exterior/Interior/En el trabajo).
 [ ] (Tú) Publicarlas en Facebook con el texto que te di en el chat.
 [ ] (Tú) Search Console: pedir indexación de la página del proyecto.
