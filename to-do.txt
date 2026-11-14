@@ -24,7 +24,8 @@ REGISTRO DE CAMBIOS HECHOS
 [x] Página renombrada a /proyectos/reforma-restaurante-marbella.html con nombre y zona
     en título, portada y textos. Redirección 301 desde la dirección antigua (vercel.json).
 [x] Tarjeta de la obra también en zonas/marbella.html (sección Antes y después).
-[x] Corregido el nombre: es "El Barril del Gusto" (no "Rincón"). Cambiado en todas las páginas.
+[x] Quitado el nombre del restaurante de toda la web (decisión del jefe): NO nombrarlo.
+    Se mantiene "restaurante en primera línea de playa en Marbella centro".
 [x] Portada y sitemap actualizados a la nueva dirección.
 
 ## 2026-11-14 - Primera obra real: restaurante en la Costa del Sol (Claude)
