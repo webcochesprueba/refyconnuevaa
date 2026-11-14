@@ -307,4 +307,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/kitchen-renovations.html" />
   </url>
 
+  <url>
+    <loc>https://www.refyconpro.com/proyectos/reforma-restaurante-costa-del-sol.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://www.refyconpro.com/proyectos/img/restaurante-terminado.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.refyconpro.com/proyectos/img/restaurante-hornacinas.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.refyconpro.com/proyectos/img/restaurante-aseo.webp</image:loc></image:image>
+  </url>
 </urlset>

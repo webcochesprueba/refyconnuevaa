@@ -18,6 +18,21 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-14 - Primera obra real: restaurante en la Costa del Sol (Claude)
+[x] 7 fotos reales de la obra convertidas a WebP (versión grande y -sm) en /proyectos/img/
+    (sin datos GPS: WhatsApp ya los había quitado). JPG de 1200 px para compartir en redes.
+[x] Nueva página /proyectos/reforma-restaurante-costa-del-sol.html: portada con foto
+    del restaurante terminado y formulario (nueva opción "Reforma de local o restaurante"),
+    trabajos realizados, comparativa "en obra / terminado", galería paso a paso con
+    pies de foto y bloque "También reformamos locales y negocios".
+[x] Tarjeta destacada "Obra reciente · Hostelería" en la portada, bajo Nuestros Proyectos.
+[x] Añadida al sitemap con 3 imágenes (28 URLs). Estilos de galería en subpages.css.
+[ ] (Tú) Confirmar: pueblo/zona del restaurante, si se puede nombrar, y que la lista de
+    trabajos es correcta (la he deducido de las fotos).
+[ ] (Tú) Subir las 7 fotos a la ficha de Google Business (Fotos > Exterior/Interior/En el trabajo).
+[ ] (Tú) Publicarlas en Facebook con el texto que te di en el chat.
+[ ] (Tú) Search Console: pedir indexación de la página del proyecto.
+
 ## 2026-11-04 - Search Console (Tú)
 
 [x] Propiedad refyconpro.com verificada en Google Search Console.
