@@ -27,6 +27,12 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
     Ley 2/2026 de Gestión Ambiental de Andalucía, en vigor 20/06/2026: la calificación
     ambiental pasa a licencia ambiental / DR-EA; qué condiciona la obra; precios con fuentes).
     Portada del blog a 3 columnas, enlace desde la página de la obra, sitemap (30 URLs).
+[x] 3 páginas nuevas en inglés: en/renovations-san-pedro-alcantara.html,
+    en/renovations-estepona.html, en/emergency-repairs.html (hreflang es/en en ambas
+    versiones, sitemap 33 URLs). Añadidas a menús (Services/Areas), menú móvil y pie de
+    todas las páginas /en/, y a index-en.html (menú y chincheta de Estepona).
+    La tarjeta "24h emergencies" de las páginas inglesas ya lleva a su página.
+[ ] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y del artículo de hostelería.
 [ ] (Tú) Conseguir el enlace "Pedir reseñas" (g.page/r/.../review) de la ficha y pasármelo
     para el botón "Valóranos en Google" del pie.
 

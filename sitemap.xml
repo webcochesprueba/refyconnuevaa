@@ -162,6 +162,8 @@
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/servicios/urgencias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/emergency-repairs.html"/>
   </url>
 
   <!-- Páginas de Zonas -->
@@ -184,6 +186,8 @@
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/zonas/estepona.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/renovations-estepona.html"/>
   </url>
   
   <url>
@@ -207,6 +211,8 @@
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/zonas/san-pedro-alcantara.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/renovations-san-pedro-alcantara.html"/>
   </url>
 
   <url>
@@ -331,5 +337,29 @@
     <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.refyconpro.com/en/renovations-san-pedro-alcantara.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/zonas/san-pedro-alcantara.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/renovations-san-pedro-alcantara.html"/>
+  </url>
+  <url>
+    <loc>https://www.refyconpro.com/en/renovations-estepona.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/zonas/estepona.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/renovations-estepona.html"/>
+  </url>
+  <url>
+    <loc>https://www.refyconpro.com/en/emergency-repairs.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/servicios/urgencias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/emergency-repairs.html"/>
   </url>
 </urlset>
