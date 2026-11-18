@@ -54,6 +54,15 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
 [ ] (Tú) Poner https://www.refyconpro.com en la página de Facebook (Sitio web) y en la bio de Instagram.
 [ ] (Tú) Confirmar si REFYCON PROFESIONAL SL (Marbella, constituida nov. 2025, sale en Cinco
     Días y Profymarket) es la empresa, y pasar CIF y domicilio -> aviso legal + legalName.
+[x] (Tú, guiado) GOOGLE ADS PUBLICADO el 18/11: campaña "Búsqueda - Reformas Costa del Sol",
+    20,07 €/día, Maximizar clics con CPC máx. 2,00 €, solo Red de Búsqueda, 8 zonas de la
+    Costa del Sol con "Presencia o interés", IA Max desactivado, WhatsApp como recurso.
+    Grupos: ES - Reformas integrales, ES - Baños, ES - Cocinas, ES - Villas, EN - Renovations.
+    OJO: Google añadió palabras sueltas en concordancia amplia a Baños (mueble baño, espejo...);
+    se quitaron. Revisar siempre que cada grupo tenga solo frases entre comillas.
+[ ] (Tú) En 3-4 días: revisar Términos de búsqueda y Ubicaciones; añadir negativas.
+[ ] (Tú) Cambiar el nombre del anunciante verificado (sale "Www.refycon.com").
+[ ] (Tú) Pendiente: grupo ES - Locales y hostelería; enlaces de sitio en inglés en EN.
 [ ] (Tú) Conseguir el enlace "Pedir reseñas" (g.page/r/.../review) de la ficha y pasármelo
     para el botón "Valóranos en Google" del pie.
 
