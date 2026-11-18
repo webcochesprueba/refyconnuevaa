@@ -32,6 +32,13 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
     versiones, sitemap 33 URLs). Añadidas a menús (Services/Areas), menú móvil y pie de
     todas las páginas /en/, y a index-en.html (menú y chincheta de Estepona).
     La tarjeta "24h emergencies" de las páginas inglesas ya lleva a su página.
+[x] Revisadas las páginas de destino de Google Ads (doc de campaña actualizado): todas
+    cargan con formulario y llamada; propuesto grupo "Locales y hostelería" y 2 enlaces
+    de sitio nuevos (obra del restaurante y urgencias).
+[x] Limpieza: borrados restos de la web antigua que seguían publicados (app/ con
+    node_modules de Next.js, package, next.config.js, index2.html, script2.js,
+    style2.css, sw_backup.js, placeholder.jpg). Redirección /index2.html -> /.
+    sw.js se deja (no cachea nada y puede estar registrado en navegadores antiguos).
 [ ] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y del artículo de hostelería.
 [ ] (Tú) Conseguir el enlace "Pedir reseñas" (g.page/r/.../review) de la ficha y pasármelo
     para el botón "Valóranos en Google" del pie.
@@ -190,7 +197,7 @@ paso y Claude le guía.
     personalizado para los 4 eventos, etiqueta "Vinculación de
     conversiones" (Conversion Linker) y etiquetas de conversión de Google
     Ads (cuando existan los IDs de conversión).
-[ ] index-en.html: el titular sigue diciendo "Renovations & Construction of
+[x] index-en.html: el titular sigue diciendo "Renovations & Construction of
     quality" y el texto menciona "design". Cambiar como en la portada española.
 
 ## 2026-11-09 - Analítica solo por Tag Manager (Claude + Tú)
@@ -233,7 +240,7 @@ paso y Claude le guía.
 [x] index.html: menú desplegable "Zonas" (escritorio y móvil) con las 6 zonas.
 [x] sitemap: 5 URLs en inglés con alternates (24 URLs).
 [x] 404.html: enlace roto en el menú arreglado.
-[ ] index-fr.html e index-de.html: su FAQ del schema no se ve en la página
+[x] index-fr.html e index-de.html: su FAQ del schema no se ve en la página
     (igual que pasaba en la española). Añadir FAQ visible traducida.
 [ ] Si se cambia un texto de una página española con versión inglesa,
     actualizar también la inglesa (generador en.py del scratchpad de Claude;
@@ -332,7 +339,7 @@ Ficha de Google hecha e indexación pedida en Search Console.
 [x] sitemap: imagen pexels inexistente -> villa-marbella-obra.webp.
 [x] Comprobado: 22 páginas sin enlaces rotos ni imágenes que falten,
     schema válido, sin scroll horizontal en móvil.
-[ ] index2.html carga style.css, que no existe. Es la copia antigua en
+[x] (2026-11-18 borrado) index2.html carga style.css, que no existe. Es la copia antigua en
     noindex: se puede borrar si no se usa para nada (decidir).
 [x] H1 de la portada cambiado (2026-11-09, con tu OK). Ver registro.
 [x] Menú "Zonas" añadido a la portada (2026-11-09).
@@ -642,7 +649,7 @@ PENDIENTE - PRIORIDAD 3 (1-3 meses)
 [ ] (Claude) Blog: 2 artículos al mes (precios de reformas en Marbella,
     licencias de obra, etc.).
 [x] (Claude) Imágenes optimizadas y archivos sin uso borrados (2026-11-09).
-[ ] (Claude) Limpiar el repo: carpeta app/ y next.config.js son restos de
+[x] (2026-11-18) Limpiar el repo: carpeta app/ y next.config.js son restos de
     Next.js que no se usan (Vercel publica el HTML estático).
 
 

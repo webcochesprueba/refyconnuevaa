@@ -21,6 +21,11 @@
       "source": "/proyectos/reforma-restaurante-costa-del-sol.html",
       "destination": "/proyectos/reforma-restaurante-marbella.html",
       "permanent": true
+    },
+    {
+      "source": "/index2.html",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }
