@@ -44,6 +44,16 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
     de suelo, licencia, plazos). Enlazado desde servicios/reformas-banos.html. Sitemap 34 URLs.
     Portada del blog: 4 artículos en 2 columnas.
 [ ] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y de los 2 artículos nuevos del blog.
+[x] Instagram (https://www.instagram.com/refyconpro): icono en el pie de las 33 páginas y
+    añadido a sameAs del schema (17 bloques). Datos validados.
+[x] blog/index.html: canonical y og:url eran /blog/index.html y el sitemap /blog/. Ahora /blog/.
+[x] Marca unificada: pie de las 7 portadas "REFYCON" -> "REFYCON PRO" (y © 2026),
+    og:site_name "Refycon" -> "Refycon PRO" en todas las páginas.
+[ ] (Tú) Search Console: inspeccionar la PORTADA (https://www.refyconpro.com/) y, si no está,
+    "Solicitar indexación". Por ahora "refycon pro" saca Facebook/Instagram y no la web.
+[ ] (Tú) Poner https://www.refyconpro.com en la página de Facebook (Sitio web) y en la bio de Instagram.
+[ ] (Tú) Confirmar si REFYCON PROFESIONAL SL (Marbella, constituida nov. 2025, sale en Cinco
+    Días y Profymarket) es la empresa, y pasar CIF y domicilio -> aviso legal + legalName.
 [ ] (Tú) Conseguir el enlace "Pedir reseñas" (g.page/r/.../review) de la ficha y pasármelo
     para el botón "Valóranos en Google" del pie.
 
