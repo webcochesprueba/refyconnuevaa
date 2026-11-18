@@ -18,6 +18,18 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-18 - Jornada completa (Claude, mientras Tú haces el plan del día)
+Plan del día (doc): https://claude.ai/artifact/79pZNSycYo8Djt7Z5YfoUu
+Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJkNiGKn9
+[x] Textos de la publicación de hoy (ficha de Google y Facebook) y mensaje para pedir reseñas.
+[x] Kit de 8 publicaciones (martes y viernes, 24 nov - 18 dic) con foto y enlace.
+[x] Nuevo artículo: blog/reforma-local-hosteleria-marbella.html (trámites con la nueva
+    Ley 2/2026 de Gestión Ambiental de Andalucía, en vigor 20/06/2026: la calificación
+    ambiental pasa a licencia ambiental / DR-EA; qué condiciona la obra; precios con fuentes).
+    Portada del blog a 3 columnas, enlace desde la página de la obra, sitemap (30 URLs).
+[ ] (Tú) Conseguir el enlace "Pedir reseñas" (g.page/r/.../review) de la ficha y pasármelo
+    para el botón "Valóranos en Google" del pie.
+
 ## 2026-11-14 (noche, 2) - SEO: enlaces a la obra y versión en inglés (Claude)
 [x] Enlaces internos a la obra del restaurante desde servicios/reformas.html (tarjeta en
     "Antes y después" + enlace en la tarjeta Locales comerciales) y desde el artículo de precios.

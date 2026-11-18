@@ -326,4 +326,10 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.refyconpro.com/proyectos/reforma-restaurante-marbella.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.refyconpro.com/en/restaurant-renovation-marbella.html"/>
   </url>
+  <url>
+    <loc>https://www.refyconpro.com/blog/reforma-local-hosteleria-marbella.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
