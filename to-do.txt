@@ -39,7 +39,11 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
     node_modules de Next.js, package, next.config.js, index2.html, script2.js,
     style2.css, sw_backup.js, placeholder.jpg). Redirección /index2.html -> /.
     sw.js se deja (no cachea nada y puede estar registrado en navegadores antiguos).
-[ ] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y del artículo de hostelería.
+[x] Nuevo artículo: blog/cambiar-banera-por-plato-de-ducha-precio.html (precios de
+    Cronoshare Estepona y Qué! sept. 2026, qué incluye, qué sube el precio, ducha a ras
+    de suelo, licencia, plazos). Enlazado desde servicios/reformas-banos.html. Sitemap 34 URLs.
+    Portada del blog: 4 artículos en 2 columnas.
+[ ] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y de los 2 artículos nuevos del blog.
 [ ] (Tú) Conseguir el enlace "Pedir reseñas" (g.page/r/.../review) de la ficha y pasármelo
     para el botón "Valóranos en Google" del pie.
 
