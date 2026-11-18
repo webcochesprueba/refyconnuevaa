@@ -43,7 +43,7 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
     Cronoshare Estepona y Qué! sept. 2026, qué incluye, qué sube el precio, ducha a ras
     de suelo, licencia, plazos). Enlazado desde servicios/reformas-banos.html. Sitemap 34 URLs.
     Portada del blog: 4 artículos en 2 columnas.
-[ ] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y de los 2 artículos nuevos del blog.
+[x] (Tú) Search Console: pedir indexación de las 3 páginas inglesas nuevas y de los 2 artículos nuevos del blog.
 [x] Instagram (https://www.instagram.com/refyconpro): icono en el pie de las 33 páginas y
     añadido a sameAs del schema (17 bloques). Datos validados.
 [x] blog/index.html: canonical y og:url eran /blog/index.html y el sitemap /blog/. Ahora /blog/.
@@ -60,6 +60,12 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
     Grupos: ES - Reformas integrales, ES - Baños, ES - Cocinas, ES - Villas, EN - Renovations.
     OJO: Google añadió palabras sueltas en concordancia amplia a Baños (mueble baño, espejo...);
     se quitaron. Revisar siempre que cada grupo tenga solo frases entre comillas.
+[x] (Tú, 18/11) Confirmado hecho: indexación pedida en Search Console (obra, blog, /en/),
+    Analytics en tiempo real OK, Bing Webmaster Tools, "Retirar contenido obsoleto" de
+    refycon.com (Google y Bing), ficha de Google (7 fotos, novedad, 3 servicios nuevos),
+    directorios (Habitissimo, Cronoshare, Páginas Amarillas, Bing Places, Apple).
+[ ] (Tú) Houzz: alta con proyecto "Reforma de restaurante en Marbella" y las 7 fotos.
+[ ] (Tú) Search Console > Páginas: apuntar indexadas / no indexadas y sus motivos.
 [ ] (Tú) En 3-4 días: revisar Términos de búsqueda y Ubicaciones; añadir negativas.
 [ ] (Tú) Cambiar el nombre del anunciante verificado (sale "Www.refycon.com").
 [ ] (Tú) Pendiente: grupo ES - Locales y hostelería; enlaces de sitio en inglés en EN.
@@ -75,7 +81,7 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
 [x] ARREGLADO: el enlace "Español" del menú de las 5 páginas inglesas apuntaba a la propia
     página inglesa. Ahora lleva a su versión española.
 [x] Corregida errata en el texto de ayuda del formulario de la página de la obra.
-[ ] (Tú) Search Console: pedir indexación también de /en/restaurant-renovation-marbella.html.
+[x] (Tú) Search Console: pedir indexación también de /en/restaurant-renovation-marbella.html.
 
 ## 2026-11-14 (noche) - Restaurante en Marbella centro (Claude)
 [x] Datos confirmados por ti: Marbella centro, primera línea de playa, nombre
@@ -97,9 +103,9 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
 [x] Tarjeta destacada "Obra reciente · Hostelería" en la portada, bajo Nuestros Proyectos.
 [x] Añadida al sitemap con 3 imágenes (28 URLs). Estilos de galería en subpages.css.
 [x] (Tú) Confirmado: Marbella centro, sin nombre, lista de trabajos OK.
-[ ] (Tú) Subir las 7 fotos a la ficha de Google Business (Fotos > Exterior/Interior/En el trabajo).
+[x] (Tú) Subir las 7 fotos a la ficha de Google Business (Fotos > Exterior/Interior/En el trabajo).
 [ ] (Tú) Publicarlas en Facebook con el texto que te di en el chat.
-[ ] (Tú) Search Console: pedir indexación de la página del proyecto.
+[x] (Tú) Search Console: pedir indexación de la página del proyecto.
 
 ## 2026-11-04 - Search Console (Tú)
 
@@ -124,7 +130,7 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
       600-1.200 €/m², IVA 10 %/21 %, plazos, cómo comparar presupuestos.
 [x] Enlace "Blog" en menú y pie de la portada y en el pie de las subpáginas
     en español. sitemap: 27 URLs.
-[ ] (Tú) Search Console y Bing: pedir indexación de /blog/ y los 2 artículos.
+[x] (Tú) Search Console y Bing: pedir indexación de /blog/ y los 2 artículos.
 [ ] (Tú) Compartir los artículos en la página de Facebook.
 [ ] Próximos artículos posibles: "Cambiar bañera por plato de ducha: precio y
     plazos", "Reformar un piso antiguo en Málaga: qué revisar", "Reformar para
@@ -170,11 +176,11 @@ Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJ
 [x] (Claude) vercel.json: redirección 301 de /servicios/steel-framing.html
     -> /servicios/reformas.html (la página ya no existe).
 [x] Redirigir refycon.com: NO es posible, el dominio ya no es vuestro (2026-11-12).
-[ ] (Tú) Google Search Console -> herramienta "Retirar contenido obsoleto"
+[x] (Tú) Google Search Console -> herramienta "Retirar contenido obsoleto"
     (search.google.com/search-console/remove-outdated-content) con las URLs
     viejas de refycon.com que salgan en Google (su contenido ya no existe).
     En Bing Webmaster Tools existe la herramienta equivalente.
-[ ] (Tú) Bing Webmaster Tools: dar de alta refyconpro.com (importar desde
+[x] (Tú) Bing Webmaster Tools: dar de alta refyconpro.com (importar desde
     Search Console), enviar sitemap.xml. ChatGPT usa sobre todo el índice de Bing.
 [ ] (Tú) Pedir a mejoresreformas.es que cambie el enlace a www.refyconpro.com.
 
@@ -238,7 +244,7 @@ paso y Claude le guía.
     de cookies (cookie-consent.js). Probado en navegador.
 [ ] GTM-T9BC6MQK (contenedor nuevo que creaste): no se usa. Borrarlo o
     dejarlo, pero no instalarlo.
-[ ] (Tú) Comprobar en Google Analytics > Informes > Tiempo real que
+[x] (Tú) Comprobar en Google Analytics > Informes > Tiempo real que
     siguen entrando visitas (aceptando las cookies en la web).
 [x] Web preparada para Google Ads (2026-11-09): ver registro "Google Ads".
 
@@ -269,7 +275,7 @@ paso y Claude le guía.
     actualizar también la inglesa (generador en.py del scratchpad de Claude;
     si no está, traducir a mano).
 [ ] Próximas páginas en inglés recomendadas: San Pedro, Estepona, Urgencias.
-[ ] (Tú) Search Console: pedir indexación de las 5 páginas /en/.
+[x] (Tú) Search Console: pedir indexación de las 5 páginas /en/.
 
 ## 2026-11-09 (tarde) - Velocidad, título de portada y precio Benahavís (Claude)
 
@@ -411,7 +417,7 @@ Ficha de Google hecha e indexación pedida en Search Console.
     la usaba y las subpáginas no, así que la letra era distinta.
 [x] Comprobado: 8 subpáginas + portada sin enlaces rotos, etiquetas
     bien cerradas, FAQ visibles = schema, títulos distintos.
-[ ] (Tú) Search Console: pedir indexación de servicios/reformas-banos.html
+[x] (Tú) Search Console: pedir indexación de servicios/reformas-banos.html
     y servicios/reformas-cocinas.html.
 
 ## 2026-11-04 - Google Business Profile (Tú)
@@ -431,7 +437,7 @@ Ficha de Google hecha e indexación pedida en Search Console.
     garantía de 2 años."
 [x] Mensajes de WhatsApp para pedir reseña preparados (al terminar obra / cliente antiguo).
 [x] (Claude) Lista de servicios de la ficha preparada (2026-11-05, ver más abajo).
-[ ] (Tú) Añadir esos servicios en la ficha de Google Business.
+[x] (Tú) Añadir esos servicios en la ficha de Google Business.
     Servicios propuestos (nombre: descripción, máx. 300 caracteres):
     - Reformas integrales: Reforma completa de pisos, casas y villas con equipo propio de cada gremio y un jefe de obra como único interlocutor. Presupuesto cerrado y garantía de 2 años.
     - Reformas de baños: Baño completo o cambio de bañera por plato de ducha a ras de suelo: alicatado, sanitarios, grifería, mueble e instalaciones nuevas. Obra en 2-4 semanas.
@@ -454,9 +460,9 @@ Ficha de Google hecha e indexación pedida en Search Console.
 [ ] (Tú) Pedir reseña en CADA trabajo nuevo el día de la entrega (botón
     "Pedir reseñas" de Google Business -> enlace por WhatsApp).
 [ ] (Tú) Pedir reseña a los pocos clientes antiguos que se puedan localizar.
-[ ] (Tú) Anuncios de Milanuncios y Páginas Amarillas con el nombre Refycon PRO,
+[~] (Tú) Anuncios de Milanuncios y Páginas Amarillas con el nombre Refycon PRO, (Páginas Amarillas hecho; Milanuncios por confirmar)
     teléfono +34 613 446 457 y web www.refyconpro.com (siempre igual).
-[ ] (Tú) Alta en Habitissimo y Cronoshare con los mismos datos.
+[x] (Tú) Alta en Habitissimo y Cronoshare con los mismos datos.
 [ ] (Tú) 1 publicación por semana en Google Business (foto de obra / antes-después).
 
 ## 2026-11-04 - Rediseño de Estepona, Manilva, Málaga y Urgencias (Claude)
@@ -664,8 +670,8 @@ PENDIENTE - PRIORIDAD 3 (1-3 meses)
 ------------------------------------------------------------------------------
 
 [ ] (Tú) Reseñas en Google: objetivo 20 en 2 meses, luego 2-4 al mes.
-[ ] (Tú) Alta con los mismos datos en Habitissimo, Cronoshare, Houzz,
-    Páginas Amarillas, Trustlocal, Bing Places y Apple Maps.
+[~] (Tú) Alta con los mismos datos en Habitissimo, Cronoshare, Houzz,
+    Páginas Amarillas, Trustlocal, Bing Places y Apple Maps. -> HECHOS (confirmado 18/11) salvo Houzz (en curso) y Trustlocal.
 [ ] (Tú) Confirmar si la ficha "Refycon Construcción Premium" (Estepona,
     4,7 estrellas, 62 reseñas) que aparece en mejoresreformas.es es vuestra.
 [ ] (Claude) Página de proyectos con una ficha por obra real.
