@@ -18,6 +18,18 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-19 (tarde) - Aviso legal (Claude)
+Datos que pasó el usuario: titular "Refycon PRO", NIF B24746927,
+domicilio "Av. Benajarafe, Urb. Puebla Agata".
+[x] Nueva página aviso-legal.html (LSSI art. 10: datos, objeto, uso, propiedad intelectual,
+    responsabilidad, enlaces, datos/cookies, legislación). noindex como cookies.
+[x] Enlace "Aviso Legal" (traducido en cada idioma) en el pie de 33 páginas.
+[x] privacidad.html y cookies.html: titular Refycon PRO con NIF y domicilio, enlace al aviso legal.
+[ ] (Tú) Confirmar la denominación social EXACTA de la escritura (¿"REFYCON PROFESIONAL SL"?),
+    número, código postal y municipio del domicilio, y datos del Registro Mercantil
+    (tomo, folio, hoja). Con eso se completa el aviso legal y se añade legalName al schema.
+[x] (Tú) Facebook hecho. Fotos de obras pedidas. Houzz: es de pago, pendiente de decidir con el jefe.
+
 ## 2026-11-19 - Ajustes según Search Console (Claude)
 Datos de Search Console (3 meses, a 19/11): 678 impresiones, 3 clics, posición media 60,6.
 Impresiones subiendo desde el 13/11 (de ~10/día a ~170/día). Página con más impresiones:
