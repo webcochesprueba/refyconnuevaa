@@ -28,7 +28,20 @@ domicilio "Av. Benajarafe, Urb. Puebla Agata".
 [ ] (Tú) Confirmar la denominación social EXACTA de la escritura (¿"REFYCON PROFESIONAL SL"?),
     número, código postal y municipio del domicilio, y datos del Registro Mercantil
     (tomo, folio, hoja). Con eso se completa el aviso legal y se añade legalName al schema.
-[x] (Tú) Facebook hecho. Fotos de obras pedidas. Houzz: es de pago, pendiente de decidir con el jefe.
+[x] (Tú, 19/11) Facebook completo (web, textos, categoría, contacto, horario, botón WhatsApp).
+[x] (Tú, 19/11) Primera publicación de la obra del restaurante en Facebook e Instagram;
+    Instagram con nombre, biografía y enlace a la web.
+[x] (Tú, 19/11) Revisión de Google Ads y de Search Console (ver arriba).
+[x] (Tú, 19/11) Milanuncios: 2 anuncios publicados (reformas integrales; baños y cocinas).
+    Renovarlos cada 2-3 días.
+[x] (Tú, 19/11) Grupos de Facebook: unido a 8-10 grupos, respondido a peticiones y
+    apuntados los contactos.
+[x] (Tú, 19/11) Pedidas fotos de obras (recientes y antiguas), del equipo y de la furgoneta.
+[ ] (Tú) Mandarme las fotos de obras cuando lleguen -> página de cada obra + publicaciones.
+[ ] (Tú) Nombre de usuario de Facebook (facebook.com/refyconpro) y vincular Instagram a la página.
+[ ] (Tú) Programar en Meta Business Suite las publicaciones 1 y 2 del kit (24 y 27 nov, 19:00).
+[ ] (Tú) Houzz es de pago: decidir con el jefe (recomendación: esperar a ver resultados de Ads).
+[ ] (Claude) Páginas de zona de Mijas y Fuengirola (la campaña ya se muestra allí).
 
 ## 2026-11-19 - Ajustes según Search Console (Claude)
 Datos de Search Console (3 meses, a 19/11): 678 impresiones, 3 clics, posición media 60,6.
