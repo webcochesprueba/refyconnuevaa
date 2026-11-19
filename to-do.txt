@@ -18,6 +18,26 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-19 - Ajustes según Search Console (Claude)
+Datos de Search Console (3 meses, a 19/11): 678 impresiones, 3 clics, posición media 60,6.
+Impresiones subiendo desde el 13/11 (de ~10/día a ~170/día). Página con más impresiones:
+blog de precios (287). Búsquedas top: renovation marbella (94), reformas integrales marbella
+(63), reforma integral de casa marbella (30), presupuesto reforma casa marbella (24),
+reformar piso entero marbella (22), electricista marbella 24 horas (21),
+wohnung renovieren marbella (20, alemán).
+Indexación: 18 sin indexar = 3 redirecciones (OK), 2 noindex (cookies/privacidad, OK),
+1 rastreada sin indexar (en/restaurant), 12 descubiertas sin rastrear (normal en dominio nuevo).
+[x] Blog de precios: título/description/H1 hacia "presupuesto reforma integral Marbella,
+    pisos y casas"; nueva sección con presupuesto orientativo para 70, 90 y 120 m²
+    (600-1.200 €/m²) y enlace a pedir presupuesto. Portada del blog actualizada.
+[x] Urgencias: título, og:title y description con "Electricista y Fontanero Urgente 24h en Marbella".
+[x] (Tú) Ads: 70 impresiones, 2 clics, 3,81 € el primer día; 5 anuncios Apto.
+    Conversión "Formulario presupuesto" = "Configuración errónea" porque nunca recibió datos:
+    enviar formulario de prueba y comprobar mañana.
+[ ] (Tú) Ads: añadir a ES - Reformas integrales "presupuesto reforma casa marbella",
+    "reformar piso entero marbella", "reforma integral de casa marbella".
+[ ] (Claude) Página en alemán (Wohnung renovieren Marbella) cuando haya hueco.
+
 ## 2026-11-18 - Jornada completa (Claude, mientras Tú haces el plan del día)
 Plan del día (doc): https://claude.ai/artifact/79pZNSycYo8Djt7Z5YfoUu
 Kit de 8 publicaciones nov-dic (doc): https://claude.ai/artifact/SBYUJtQVTwPvBfJkNiGKn9
