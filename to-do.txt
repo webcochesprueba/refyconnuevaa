@@ -18,6 +18,17 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-20 - Google Ads día 2 y zonas Mijas/Fuengirola
+[x] (Tú) Ads 13-19/11: 125 impresiones, 3 clics, 5,77 € (gasta ~2 €/día de 20 €).
+    Villas 0 impresiones. Subido el límite de CPC de 2 € a 3 € y añadidas palabras
+    clave nuevas (Reformas integrales, EN y Villas). Formulario ya "Esperando conversiones";
+    WhatsApp y llamada pasan a "Configuración errónea" por 7 días sin datos -> probar botones.
+[ ] (Tú) Revisar Ads el lunes/martes: columnas "Cuota de impr. perdida (ranking/presupuesto)".
+[x] (Claude) Nuevas zonas/mijas.html y zonas/fuengirola.html (generador zonas2.py, con
+    sameAs de GBP/Facebook/Instagram). Añadidas al menú Zonas, al pie y al menú móvil de
+    todas las páginas en español, chinchetas de la portada enlazadas, sitemap 36 URLs.
+[ ] (Tú) Search Console: pedir indexación de zonas/mijas.html y zonas/fuengirola.html.
+
 ## 2026-11-19 (tarde) - Aviso legal (Claude)
 Datos que pasó el usuario: titular "Refycon PRO", NIF B24746927,
 domicilio "Av. Benajarafe, Urb. Puebla Agata".
@@ -41,7 +52,7 @@ domicilio "Av. Benajarafe, Urb. Puebla Agata".
 [ ] (Tú) Nombre de usuario de Facebook (facebook.com/refyconpro) y vincular Instagram a la página.
 [ ] (Tú) Programar en Meta Business Suite las publicaciones 1 y 2 del kit (24 y 27 nov, 19:00).
 [ ] (Tú) Houzz es de pago: decidir con el jefe (recomendación: esperar a ver resultados de Ads).
-[ ] (Claude) Páginas de zona de Mijas y Fuengirola (la campaña ya se muestra allí).
+[x] (Claude, 20/11) Páginas de zona de Mijas y Fuengirola (ver registro del 20/11).
 
 ## 2026-11-19 - Ajustes según Search Console (Claude)
 Datos de Search Console (3 meses, a 19/11): 678 impresiones, 3 clics, posición media 60,6.
