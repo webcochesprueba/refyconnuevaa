@@ -27,6 +27,13 @@ REGISTRO DE CAMBIOS HECHOS
 [x] (Claude) Nuevas zonas/mijas.html y zonas/fuengirola.html (generador zonas2.py, con
     sameAs de GBP/Facebook/Instagram). Añadidas al menú Zonas, al pie y al menú móvil de
     todas las páginas en español, chinchetas de la portada enlazadas, sitemap 36 URLs.
+[x] (Claude, 20/11) Página en alemán de/renovierung-marbella.html (traducida de
+    en/renovations-marbella.html con generador de.py; búsqueda real "wohnung renovieren
+    marbella"). FAQ adaptadas a clientes extranjeros (sin afirmaciones de obras en La
+    Zagaleta/Sierra Blanca). hreflang es/en/de en las 3 versiones y en el sitemap (37 URLs).
+    Enlazada desde index-de.html (menú, menú móvil y pie). Botones de WhatsApp y llamada
+    comprobados por el usuario.
+[ ] (Tú) Search Console: pedir indexación de https://www.refyconpro.com/de/renovierung-marbella.html
 [x] (Tú, 20/11) Pedida indexación de Mijas y Fuengirola. Confirmado: las páginas pedidas
     el 19/11 (baños, cocinas, obra del restaurante, contacto, en/full-renovations) ya están indexadas.
 
