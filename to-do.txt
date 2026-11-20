@@ -18,6 +18,14 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-20 (noche) - PRIMER CONTACTO POR LA WEB
+[x] Formulario recibido (20/11, ~20:50): cliente de Bélgica (+32), reforma integral de
+    100 m² (suelos, cocina y baño), idioma en, desde en/full-renovations.html, que es la
+    página del grupo EN - Renovations de Google Ads -> probablemente vino del anuncio.
+    Respuesta en inglés preparada (propuesta lunes 23/11 a las 10:00).
+[ ] (Tú) Comprobar en Ads si "Formulario presupuesto" contó 1 conversión.
+[x] Logo para firma de correo: https://www.refyconpro.com/firma-logo.png (PNG 600x153).
+
 ## 2026-11-20 (mediodía) - Idiomas: español, inglés, italiano y alemán
 Decisión del jefe: atender también en alemán (e italiano). NO mencionar en la web que
 hay traductora.
