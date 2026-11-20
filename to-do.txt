@@ -27,7 +27,8 @@ REGISTRO DE CAMBIOS HECHOS
 [x] (Claude) Nuevas zonas/mijas.html y zonas/fuengirola.html (generador zonas2.py, con
     sameAs de GBP/Facebook/Instagram). Añadidas al menú Zonas, al pie y al menú móvil de
     todas las páginas en español, chinchetas de la portada enlazadas, sitemap 36 URLs.
-[ ] (Tú) Search Console: pedir indexación de zonas/mijas.html y zonas/fuengirola.html.
+[x] (Tú, 20/11) Pedida indexación de Mijas y Fuengirola. Confirmado: las páginas pedidas
+    el 19/11 (baños, cocinas, obra del restaurante, contacto, en/full-renovations) ya están indexadas.
 
 ## 2026-11-19 (tarde) - Aviso legal (Claude)
 Datos que pasó el usuario: titular "Refycon PRO", NIF B24746927,
