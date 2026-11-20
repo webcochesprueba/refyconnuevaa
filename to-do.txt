@@ -18,6 +18,20 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-20 (mediodía) - Idiomas: español, inglés, italiano y alemán
+Decisión del jefe: atender también en alemán (e italiano). NO mencionar en la web que
+hay traductora.
+[x] Pie de 37 páginas: nueva línea "Atendemos en español, inglés, italiano y alemán"
+    (traducida en cada idioma). Faltan 404, contact y privacidad (no tienen ese bloque).
+[x] Schema: knowsLanguage [es, en, it, de] en los datos de empresa y availableLanguage
+    [Spanish, English, Italian, German] donde ya existía (33 bloques).
+[x] Textos corregidos: Mijas (FAQ), página alemana ("Wir sprechen Deutsch..."), páginas
+    inglesas ("We speak English, Spanish, Italian and German").
+[x] Nueva pregunta frecuente sobre idiomas en las portadas es, en, de y fr (visible + schema).
+[ ] (Tú) Añadir los idiomas en la ficha de Google (descripción), Facebook e Instagram, y en Ads
+    un texto destacado "Atendemos en 4 idiomas" (y "We speak 4 languages" en el grupo EN).
+[ ] (Pendiente) Valorar un grupo de anuncios en alemán cuando haya datos de la campaña.
+
 ## 2026-11-20 - Google Ads día 2 y zonas Mijas/Fuengirola
 [x] (Tú) Ads 13-19/11: 125 impresiones, 3 clics, 5,77 € (gasta ~2 €/día de 20 €).
     Villas 0 impresiones. Subido el límite de CPC de 2 € a 3 € y añadidas palabras
