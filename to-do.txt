@@ -26,6 +26,8 @@ REGISTRO DE CAMBIOS HECHOS
 [x] (Tú) Palabras clave negativas de EMPLEO añadidas a nivel de campaña (empleo, trabajo,
     trabajar, ofertas, oferta de empleo, vacante(s), curriculum, cv, sueldo, salario, infojobs,
     indeed, practicas, jobs, job, hiring, vacancy, careers, salary).
+[x] (Tú) Añadidas también las negativas de formación, bricolaje/material y otros
+    (curso, tutorial, diy, ikea, leroy merlin, gratis, alquiler, ideas, contrato...).
 [ ] (Tú) Poner URL final propia por palabra clave: "reformas estepona" y "reformas integrales
     estepona" -> zonas/estepona.html; "reformas san pedro alcantara" y "reformas integrales
     san pedro" -> zonas/san-pedro-alcantara.html; "reforma villa benahavis" -> zonas/benahavis.html;
