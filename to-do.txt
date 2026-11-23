@@ -18,6 +18,34 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-23 - Google Ads: primera semana y palabras negativas de empleo
+[x] (Tú) Ads 16-22/11: 18 clics, 416 impresiones, 46,56 €. 1 conversión (Daisy, Bélgica)
+    entró por "renovation estepona" (grupo EN). Daisy respondió: visita y presupuesto en curso.
+    Resumen semanal de Google (14-20/11): coste por conversión 18,21 €.
+    El jefe NO activó la "aplicación automática de recomendaciones" (no activarla nunca).
+[x] (Tú) Palabras clave negativas de EMPLEO añadidas a nivel de campaña (empleo, trabajo,
+    trabajar, ofertas, oferta de empleo, vacante(s), curriculum, cv, sueldo, salario, infojobs,
+    indeed, practicas, jobs, job, hiring, vacancy, careers, salary).
+[ ] (Tú) Poner URL final propia por palabra clave: "reformas estepona" y "reformas integrales
+    estepona" -> zonas/estepona.html; "reformas san pedro alcantara" y "reformas integrales
+    san pedro" -> zonas/san-pedro-alcantara.html; "reforma villa benahavis" -> zonas/benahavis.html;
+    "renovation estepona" -> en/renovations-estepona.html; "renovation benahavis" ->
+    en/renovations-benahavis.html. ("reformas estepona" salía con nivel de calidad bajo.)
+[ ] (Tú) Crear conversión "Llamadas desde anuncios" (Objetivos > Conversiones > + > Llamadas
+    telefónicas > Llamadas desde tus anuncios, mínimo 60 s).
+[ ] (Tú) Mandar captura de Palabras clave > Términos de búsqueda.
+
+== RECORDATORIO A FUTURO: CUANDO HAGA FALTA CONTRATAR PERSONAL ==
+Las negativas de empleo bloquean que los anuncios de clientes salgan a gente que busca trabajo.
+Dónde están: Google Ads > Campañas > Audiencias, palabras clave y contenido > Palabras clave >
+pestaña "Palabras clave negativas" > nivel de campaña "Búsqueda - Reformas Costa del Sol".
+Recomendación: NO quitarlas de la campaña de clientes. Para contratar, mejor:
+  1) crear una campaña APARTE (p. ej. "Empleo - Marbella") con palabras como
+     "trabajo albañil marbella", "empleo construccion marbella", y su propio presupuesto;
+  2) una página "Trabaja con nosotros" en la web (Claude la puede hacer) como destino;
+  3) publicar también en InfoJobs/Indeed (gratis o barato).
+Así los clics de candidatos no se mezclan con los de clientes ni con sus conversiones.
+
 ## 2026-11-20 (noche) - PRIMER CONTACTO POR LA WEB
 [x] Formulario recibido (20/11, ~20:50): cliente de Bélgica (+32), reforma integral de
     100 m² (suelos, cocina y baño), idioma en, desde en/full-renovations.html, que es la
