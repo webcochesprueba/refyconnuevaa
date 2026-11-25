@@ -18,6 +18,20 @@ Responsable:  (Claude) lo hace Claude en el repo  |  (Tú) lo haces tú fuera de
 REGISTRO DE CAMBIOS HECHOS
 ------------------------------------------------------------------------------
 
+## 2026-11-25 - Llamada de alguien que buscaba empleo
+Contexto: el jefe recibió una llamada de un hombre buscando trabajo. No se sabe si vino del
+anuncio o de la ficha de Google/directorios. Ads 18-24/11: 36 clics, 555 impresiones,
+85,26 €, CPC medio 2,37 €. El usuario bajó el límite de CPC de 3 € a 2 €.
+[x] (Tú) PAUSADA la palabra clave "constructora marbella" (la más ambigua: la usan quienes
+    buscan empresas a las que pedir trabajo, sin escribir "trabajo"). Reactivable.
+[x] (Claude) Pie de 37 páginas: "¿Buscas trabajo? Envíanos tu CV por email" (mailto con
+    asunto "Currículum"), traducido en cada idioma. También en contact.html bajo WhatsApp.
+[ ] (Tú) Preguntar a cada persona que llame "¿cómo nos ha encontrado?" y mirar en Ads
+    Estadísticas e informes > Detalles de llamadas.
+[ ] (Tú) Añadir método de pago alternativo en Facturación (aviso en Ads).
+[ ] (Tú) No tocar la puja en 2-3 semanas. Evaluar la campaña a mediados de diciembre
+    (4 semanas): objetivo 2-3 contactos de clientes reales (contando a Daisy).
+
 ## 2026-11-23 - Google Ads: primera semana y palabras negativas de empleo
 [x] (Tú) Ads 16-22/11: 18 clics, 416 impresiones, 46,56 €. 1 conversión (Daisy, Bélgica)
     entró por "renovation estepona" (grupo EN). Daisy respondió: visita y presupuesto en curso.
